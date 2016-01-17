@@ -1,3 +1,5 @@
+{% capture html %}
+
 {% assign entries = site.pages | sort: "path" %}
 {% for entry in entries %}
 
@@ -16,3 +18,5 @@
 {% endif %}
 
 {% endfor %}
+{% endcapture %}
+{{ html | strip_newlines | replace:'    ','' | replace:'    ','' | replace:'  ',' ' }}
