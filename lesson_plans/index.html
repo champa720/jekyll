@@ -1,0 +1,73 @@
+---
+title: Lesson Plans
+breadcrumb: Lesson Plans
+icon: expand_more
+
+layout: page
+---
+
+I suppose a collection of leesons goes here?
+
+<div class="orange">
+{% for collection in site.pages %}
+{{ collection.colleciton }}<br />
+{{ collection.path }}<br />
+{{ collection.name }}<br />
+{{ collection.title }}<br />
+{{ collection.output_ext }}<br />
+{{ collection.url }}<br />
+{% endfor %}
+</div>
+
+<hr />
+
+<div class="pink">
+{% for collection in site.collections %}
+{{ collection.label }}<br />
+{{ collection.docs }}<br />
+{{ collection.relative_directory }}<br />
+{{ collection.directory }}<br />
+{{ collection.output }}<br />
+{{ collection.url }}<br />
+{% endfor %}
+</div>
+
+<hr />
+
+<div class="yellow">
+{% for collection in site.static_files %}
+{{ collection.path }}<br />
+{{ collection.modified_time }}<br />
+{{ collection.extname }}<br />
+{{ collection.directory }}<br />
+{{ collection.output }}<br />
+{{ collection.url }}<br />
+{% endfor %}
+</div>
+
+<hr />
+
+<div class="green">
+{% for collection in site.html_files %}
+{{ collection.path }}<br />
+{{ collection.modified_time }}<br />
+{{ collection.extname }}<br />
+{{ collection.directory }}<br />
+{{ collection.title }}<br />
+{{ collection.url }}<br />
+{% endfor %}
+</div>
+
+<hr />
+
+<div class="blue">
+{% for collection in site.documents %}
+{{ collection.path }}<br />
+{{ collection.modified_time }}<br />
+{{ collection.extname }}<br />
+{{ collection.output_ext }}<br />
+{{ collection.title }}<br />
+{{ collection.url }}<br />
+{{ collection.files }}<br />
+{% endfor %}
+</div>

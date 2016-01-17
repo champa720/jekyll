@@ -1,0 +1,28 @@
+{% capture html %}
+
+{% if include.context == "/" %}
+<li class="{% if page.url == "/" %}active{% endif %}">
+  <a href="{{ site.baseurl }}/"><i class="material-icons left">copyright</i>{{ site.time | date: "%Y" }}, all rights reserved</a>
+</li>
+<li class="divider"></li>
+{% endif %}
+
+{% assign entries = site.pages | sort: "path" %}
+{% for entry in entries %}
+
+{% capture slug    %}{{ entry.url | split: "/"   | last                       }}{% endcapture %}
+{% capture current %}{{ entry.url | remove: slug | remove: "//" | append: "/" }}{% endcapture %}
+
+{% if current == include.context %}
+<li class="{% if page.url contains entry.url %}active{% endif %}">
+  <a class="collapsible-header truncate {% if page.url contains entry.url %}active{% endif %}" href="{{ entry.url | prepend: site.baseurl }}">
+    <i class="material-icons">{{ entry.icon }}</i>{{ entry.title }}</a>
+  
+  {% include navigation-2.html context=entry.url %}
+  
+</li>
+{% endif %}
+{% endfor %}
+
+{% endcapture %}
+{{ html | strip_newlines | replace:'    ','' | replace:'    ','' | replace:'  ',' ' }}

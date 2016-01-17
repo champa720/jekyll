@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+  {% include navbar.html %}
+
+  <body>
+
+    <main class="page-content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </main>
+
+  </body>
+  
+  <!-- scripts -->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="{{ "/assets/js/materialize.min.js" | prepend: site.baseurl }}"></script>
+  <script src="{{ "/assets/js/main.js" | prepend: site.baseurl }}"></script>
+  
+</html>

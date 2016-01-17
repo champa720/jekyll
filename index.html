@@ -1,0 +1,36 @@
+---
+title: Welcome
+breadcrumb: Welcome
+icon: copyright
+
+slides:
+  - title: Jason's Classroom
+    description: A place to study for your High School Equivalency Diploma
+    image_path: /denver.jpg
+  - title: Khan Academy
+    website: https://www.khanacademy.org
+    image_path: /khanacademy.jpg
+  - title: Ed Ready
+    website: https://abetlc.edready.org
+    image_path: /edready.jpg
+
+layout: default
+---
+<header class="slider fullscreen">
+  <ul class="slides">
+    {% for slide in page.slides %}
+    <li>
+      <img src="{{ "/assets/img" | append: slide.image_path | prepend: site.baseurl }}" alt="{{ page.image_path }}">
+      <div class="linear-gradient"></div>
+      <div class="caption right-align">
+        <h1><b>{{ slide.title }}</b></h1>
+        {% if slide.description != null %}
+        <h5 class="light grey-text text-lighten-2">{{ slide.description }}</h5>
+        {% elsif slide.website != null %}
+        <a href="{{ slide.website }}"><h5 class="light">{{ slide.website }}</h5></a>
+        {% endif %}
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
+</header>
