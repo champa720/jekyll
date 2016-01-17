@@ -13,7 +13,7 @@
 {% capture slug    %}{{ entry.url | split: "/"   | last                       }}{% endcapture %}
 {% capture current %}{{ entry.url | remove: slug | remove: "//" | append: "/" }}{% endcapture %}
 
-{% if current == "/" %}
+{% if current == include.context %}
 <li class="{% if page.url contains entry.url %}active{% endif %}">
   <a class="collapsible-header truncate {% if page.url contains entry.url %}active{% endif %}" href="{{ entry.url | prepend: site.baseurl }}">
     <i class="material-icons">{{ entry.icon }}</i>{{ entry.title }}</a>
