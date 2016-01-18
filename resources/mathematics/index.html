@@ -17,7 +17,13 @@ layout: page
 {% capture length %}{{ forloop.length }}{% endcapture %}
 {{ length }}
 
-{% if forloop.last == true %}
+{% if forloop.first == true %}
+<div class="yellow">
+{{ site.baseurl }}<br />
+{{ "Home" | upcase }}
+</div>
+<br />
+{% elsif forloop.last == true %}
 <div class="green">
 {{ page.title | upcase }}
 </div>
@@ -29,7 +35,7 @@ layout: page
 {% assign crumb_limit = forloop.index %}
 {% for crumb in crumbs limit: crumb_limit %}
 {{ crumb | append: '/' }}
-{% endfor %}"><br />
+{% endfor %}"<br />
 {{ crumb | replace:'-', ' ' | replace: '_', ' ' | upcase }}
 </div>
 <br />
