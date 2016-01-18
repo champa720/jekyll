@@ -12,7 +12,8 @@ layout: page
 <br />
 <hr />
 {% assign crumbs = page.url | split: '/' %}
-{% for crumb in crumbs %}
+{% capture crumbs_index_free %}{{ crumbs | remove: "/index.html" }}{% endcapture %}
+{% for crumb in crumbs_index_free %}
 
 {% capture length %}{{ forloop.length }}{% endcapture %}
 {{ length }}
@@ -32,7 +33,7 @@ layout: page
 <div class="blue">
 {{ site.baseurl }}
 {% assign crumb_limit = forloop.index %}
-{% for crumb in crumbs  | remove: "/index.html" | limit: crumb_limit %}
+{% for crumb in crumbs | limit: crumb_limit %}
 {{ crumb | append: '/' }}
 {% endfor %}"<br />
 {{ crumb | replace:'-', ' ' | replace: '_', ' ' | upcase }}
