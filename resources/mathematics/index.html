@@ -13,7 +13,9 @@ layout: page
 <hr />
 {% assign crumbs = page.url | split: '/' %}
 {% for crumb in crumbs %}
-{% if forloop.last %}
+{% capture length %}{{ forloop.length }}{% endcapture %}
+{{ length }}
+{% if forloop.last == true %}
 <a class="1">{{ page.title | upcase }}</a>
 
 {% else %}
