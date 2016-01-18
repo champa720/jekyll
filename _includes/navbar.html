@@ -10,7 +10,7 @@
           {% else %}
           <a class="breadcrumb" href="{{ site.baseurl }}/">Welcome</a>
           {% endif %}
-          {% capture page_url_without_index_html %}{{ page.url | remove: "/index.html" }}{% endcapture %}
+          {% capture page_url_without_index_html %}{{ page.url }}{% endcapture %}
           {% assign splitted_url_parts = page_url_without_index_html | split: '/' %}
           {% capture forLoopMaxInt %}{{ splitted_url_parts.size | minus:1 }}{% endcapture %}
 
@@ -20,7 +20,7 @@
           {% capture next_prepender %}{{next_prepender}}/{{ splitted_url_parts[i] }}{% endcapture %}
 
           {% for breadcrumb_page in site.pages %}
-          {% capture breadcrumb_page_page_url_without_index_html %}{{ breadcrumb_page.url | remove: "index.html" }}{% endcapture %}
+          {% capture breadcrumb_page_page_url_without_index_html %}{{ breadcrumb_page.url }}{% endcapture %}
           {% if current_breadcrumb_url == breadcrumb_page.url or current_breadcrumb_md_url == breadcrumb_page.url  %}
           <a class="breadcrumb" href="{{ site.baseurl }}{{breadcrumb_page_page_url_without_index_html}}">{{ breadcrumb_page.breadcrumb }}</a>
           {% endif %}
