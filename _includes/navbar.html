@@ -7,12 +7,12 @@
         <div class="col s12">
 
           {% assign crumbs = page.url | split: '/' %}
-          {% for crumb in crumbs offset: 1 %}
+          {% for crumb in crumbs %}
           {% if forloop.last %}
           <a class="breadcrumb">{{ page.title | upcase }}</a>
           
           {% else %}
-          <a class="breadcrumb" href="{{ site.baseurl }}{% assign crumb_limit = forloop.index | plus: 1 | remove: 'index.html' %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | remove: 'index.html' | append: '/' }}{% endfor %}">{{ crumb | replace:'-', ' ' | replace: '_', ' ' | upcase }}</a>
+          <a class="breadcrumb" href="{{ site.baseurl }}{% assign crumb_limit = forloop.index | remove: 'index.html' %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | remove: 'index.html' | append: '/' }}{% endfor %}">{{ crumb | replace:'-', ' ' | replace: '_', ' ' | upcase }}</a>
 
           {% endif %}
           {% endfor %}
