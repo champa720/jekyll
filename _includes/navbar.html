@@ -12,7 +12,7 @@
           {% endif %}
 
           {% assign crumbs = page.url | split: '/' %}
-          {% for crumb in crumbs offset: 1 %}
+          {% for crumb in crumbs offset: 2 %}
           {% if forloop.last %}
           <a class="breadcrumb">{{ page.title | upcase }}</a>
           
