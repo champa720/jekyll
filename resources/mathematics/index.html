@@ -13,13 +13,15 @@ layout: page
 <hr />
 {% assign crumbs = page.url | split: '/' %}
 {% for crumb in crumbs %}
+
 {% capture length %}{{ forloop.length }}{% endcapture %}
-{{ length }}
+{{ length |  minus: 1 }}
+
 {% if forloop.last == true %}
 <a class="1">{{ page.title | upcase }}</a>
 
 {% else %}
-<a class="2" href="{{ site.baseurl }}{% assign crumb_limit = forloop.index %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' }}{% endfor %}">{{ crumb | replace:'-', ' ' | replace: '_', ' ' | upcase }}</a>
+<a class="2" href="{{ site.baseurl }}{% assign crumb_limit = length %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' }}{% endfor %}">{{ crumb | replace:'-', ' ' | replace: '_', ' ' | upcase }}</a>
 
 {% endif %}
 {% endfor %}
