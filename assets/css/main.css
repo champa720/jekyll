@@ -24,6 +24,9 @@ nav, main, footer, .slides li {
 }
 */
 /* slides */
+.slider .slides li {
+  padding-top: 64px; /* equivalent to nav height */
+}
 .slider .slides li .caption.right-align {
   left: 25%;
   top: 62%;
@@ -34,7 +37,6 @@ nav, main, footer, .slides li {
 .slider .indicators {
   text-align: left;
   padding-left: 240px; /* equivalent to side-nav width */
-  
 }
 
 /* iframe layout */
