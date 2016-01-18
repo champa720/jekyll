@@ -12,12 +12,12 @@
           {% endif %}
 
           {% assign crumbs = page.url | split: '/' %}
-          {% for crumb in crumbs offset: 2 %}
+          {% for crumb in crumbs offset: 1 %}
           {% if forloop.last %}
           <a class="breadcrumb">{{ page.title | upcase }}</a>
           
           {% else %}
-          <a class="breadcrumb" href="{{ site.baseurl | append: '/' }}{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' }}{% endfor %}">{{ crumb | replace:'-', ' ' | replace: '_', ' ' | upcase }}</a>
+          <a class="breadcrumb" href="{{ site.baseurl | append: '/' }}{% assign crumb_limit = forloop.index | plus: 2 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' }}{% endfor %}">{{ crumb | replace:'-', ' ' | replace: '_', ' ' | upcase }}</a>
 
           {% endif %}
           {% endfor %}
