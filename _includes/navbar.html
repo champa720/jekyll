@@ -12,7 +12,7 @@
           <a class="breadcrumb">{{ page.title | upcase }}</a>
           
           {% else %}
-          <a class="breadcrumb" href="{{ site.baseurl }}{% assign crumb_limit = forloop.index %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | prepend: '/' }}{% endfor %}">{{ crumb | replace:'-', ' ' | replace: '_', ' ' | upcase }}</a>
+          <a class="breadcrumb" href="{{ site.baseurl }}{% assign crumb_limit = forloop.index %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' }}{% endfor %}">{{ crumb | replace:'-', ' ' | replace: '_', ' ' | upcase }}</a>
 
           {% endif %}
           {% endfor %}
