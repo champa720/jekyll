@@ -34,7 +34,6 @@ For loop<br />
 10 - {{ next_prepender }}<br/ >
 
 {% for breadcrumb_page in site.pages %}
-11- {{ breadcrumb_page }}<br />
 {% capture breadcrumb_page_page_url_without_index_html %}{{ breadcrumb_page.url | remove: "index.html" }}{% endcapture %}
 12 - {{ breadcrumb_page_page_url_without_index_html }}<br />
 {% if current_breadcrumb_url == breadcrumb_page.url or current_breadcrumb_md_url == breadcrumb_page.url  %}
