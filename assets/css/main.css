@@ -1,12 +1,12 @@
-/* nav breadcrumbs */
+/* nav breadcrumbs
 nav {
   background-color: transparent;
   box-shadow: none;
 }
-
+*/
 /* offsets for side menu */
 nav, main, footer, .slides li {
-  padding-left: 240px; /* equals navbar width */
+  padding-left: 240px; /* equivalent to side-nav width */
 }
 
 /* reverses icon on collapsibles */
@@ -16,17 +16,25 @@ nav, main, footer, .slides li {
   transform: rotate(180deg);
 }
 
-/* iframe slides */
+/* iframe slides
 .slides iframe {
   height: calc(100vh);
   width: 100%;
   border: none;
 }
-
-/* slide */
-.slider .slides li .caption {
+*/
+/* slides */
+.slider .slides li .caption.right-align {
   left: 25%;
-  top: 66%;
+  top: 62%;
+  margin: 20px 0;
+  padding-right: 1.5rem;
+  border-right: 5px solid #ee6e73
+}
+.slider .indicators {
+  text-align: left;
+  padding-left: 240px; /* equivalent to side-nav width */
+  
 }
 
 /* iframe layout */
@@ -79,8 +87,13 @@ iframe {
   nav, main, footer, .slides li {
     padding-left: 0;
   }
-  .slider .slides li .caption {
-  left: 15%;
-  top: 25%;
+  .slider .slides li .caption.right-align {
+    left: 15%;
+    top: 25%;
+}
+  .slider .indicators {
+    text-align: center;
+    padding-left: 0; /* equivalent to side-nav width */
+  
 }
 }
