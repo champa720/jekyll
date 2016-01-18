@@ -1,5 +1,5 @@
 ---
-title: Lesson Plans 2015
+title: 2015
 breadcrumb: 2015
 icon: event
 

@@ -46,13 +46,22 @@ For loop<br />
 
 
 <div class="breadcrumbs" role="menubar" aria-label="breadcrumbs">
- <a href="{{ site.url }}">{{ site.data.language.breadcrumb_start }}</a>
+  {% if page.url == '/' %}
+  <a class="breadcrumb" href="{{ site.baseurl }}/">Welcome to Jason's Classroom!</a>
+  {% else %}
+  <a class="breadcrumb" href="{{ site.baseurl }}/">Welcome</a>
+  {% endif %}
+  
  {% assign crumbs = page.url | split: '/' %}
    {% for crumb in crumbs offset: 1 %}
     {% if forloop.last %}
-        <a class="current">{{ page.title }}</a>
+        <a class="breadcrumb">{{ page.title | truncate: 7 }}</a>
     {% else %}
-        <a href="{{ site.url }}{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' }}{% endfor %}">{{ crumb | replace:'-',' ' }}</a>
+  
+                 {% assign crumb_limit = forloop.index | plus: 1 %}
+                 {% for crumb in crumbs limit: crumb_limit %}
+        <a class="breadcrumb" href="{{ site.baseurl | append: '/' }}{{ crumb | append: '/' }}">{{ crumb | replace:'-',' ' | capitalize }}</a>
+                 {% endfor %}
     {% endif %}
   {% endfor %}
 </div>

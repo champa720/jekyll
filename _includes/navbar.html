@@ -6,25 +6,20 @@
         <a href="#" data-activates="navigation" class="button-collapse"><i class="material-icons right">menu</i></a>
         <div class="col s12">
           {% if page.url == '/' %}
-          <a class="breadcrumb" href="{{ site.baseurl }}/">Welcome to Jason's Classroom!</a>
+          <a class="breadcrumb">{{ "Welcome to Jason's Classroom!" | upcase }}</a>
           {% else %}
-          <a class="breadcrumb" href="{{ site.baseurl }}/">Welcome</a>
+          <a class="breadcrumb" href="{{ site.baseurl | append: '/' }}">{{ "Welcome" | upcase }}</a>
           {% endif %}
-          {% capture page_url_without_index_html %}{{ page.url }}{% endcapture %}
-          {% assign splitted_url_parts = page_url_without_index_html | split: '/' %}
-          {% capture forLoopMaxInt %}{{ splitted_url_parts.size | minus:1 }}{% endcapture %}
 
-          {% for i in (1..forLoopMaxInt) %}
-          {% capture current_breadcrumb_url %}{{next_prepender}}/{{ splitted_url_parts[i] }}{% endcapture %}
-          {% capture current_breadcrumb_md_url %}{{next_prepender}}/{{ splitted_url_parts[i] }}/{% endcapture %}
-          {% capture next_prepender %}{{next_prepender}}/{{ splitted_url_parts[i] }}{% endcapture %}
+          {% assign crumbs = page.url | split: '/' %}
+          {% for crumb in crumbs offset: 1 %}
+          {% if forloop.last %}
+          <a class="breadcrumb">{{ page.title | upcase }}</a>
+          
+          {% else %}
+          <a class="breadcrumb" href="{{ site.baseurl | append: '/' }}{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' }}{% endfor %}">{{ crumb | replace:'-', ' ' | replace: '_', ' ' | upcase }}</a>
 
-          {% for breadcrumb_page in site.pages %}
-          {% capture breadcrumb_page_page_url_without_index_html %}{{ breadcrumb_page.url }}{% endcapture %}
-          {% if current_breadcrumb_url == breadcrumb_page.url or current_breadcrumb_md_url == breadcrumb_page.url  %}
-          <a class="breadcrumb" href="{{ site.baseurl }}{{breadcrumb_page_page_url_without_index_html}}">{{ breadcrumb_page.breadcrumb }}</a>
           {% endif %}
-          {% endfor %}
           {% endfor %}
         </div>
       </div>
