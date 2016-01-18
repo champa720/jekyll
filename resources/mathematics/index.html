@@ -12,7 +12,7 @@ layout: page
 <br />
 <hr />
 {% assign crumbs = page.url | split: '/' %}
-{% for crumb in crumbs %}
+{% for crumb in crumbs | remove: "index.html" %}
 
 {% capture length %}{{ forloop.length }}{% endcapture %}
 {{ length }}
