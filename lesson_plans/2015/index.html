@@ -15,11 +15,10 @@ lesson_plans:
 
 menu: "TRUE"
 layout: page
-permalink: /lesson_plans/2015/
 ---
 <ul class="collection">
   {% for lesson in page.lesson_plans %}
-  <a class="collection-item avatar" href="../lesson_plans/2015/{{ lesson.url }}">
+  <a class="collection-item avatar" href="../2015/{{ lesson.url }}">
     <i class="material-icons circle teal">picture_as_pdf</i>
     <span class="title">{{ lesson.name }}</span>
     <p>{{ lesson.subject }}</p>
