@@ -1,73 +1,27 @@
 ---
-title: Lesson Plans
-breadcrumb: Lesson Plans
+title: All Lesson Plans
 icon: expand_more
 
+lesson_plans:
+  - name: 2014 Collection
+    description: CCD, Mi Casa, TGP
+    url: 2014.html
+  - name: 2015 Collection
+    description: CCD, Mi Casa, TGP
+    url: 2015.html
+  - name: 2016 Collection
+    description: CCD, Mi Casa, TGP
+    url: 2016.html
+
 layout: page
+permalink: /lesson_plans/
 ---
-
-I suppose a collection of leesons goes here?
-
-<div class="orange">
-{% for collection in site.pages %}
-{{ collection.colleciton }}<br />
-{{ collection.path }}<br />
-{{ collection.name }}<br />
-{{ collection.title }}<br />
-{{ collection.output_ext }}<br />
-{{ collection.url }}<br />
-{% endfor %}
-</div>
-
-<hr />
-
-<div class="pink">
-{% for collection in site.collections %}
-{{ collection.label }}<br />
-{{ collection.docs }}<br />
-{{ collection.relative_directory }}<br />
-{{ collection.directory }}<br />
-{{ collection.output }}<br />
-{{ collection.url }}<br />
-{% endfor %}
-</div>
-
-<hr />
-
-<div class="yellow">
-{% for collection in site.static_files %}
-{{ collection.path }}<br />
-{{ collection.modified_time }}<br />
-{{ collection.extname }}<br />
-{{ collection.directory }}<br />
-{{ collection.output }}<br />
-{{ collection.url }}<br />
-{% endfor %}
-</div>
-
-<hr />
-
-<div class="green">
-{% for collection in site.html_files %}
-{{ collection.path }}<br />
-{{ collection.modified_time }}<br />
-{{ collection.extname }}<br />
-{{ collection.directory }}<br />
-{{ collection.title }}<br />
-{{ collection.url }}<br />
-{% endfor %}
-</div>
-
-<hr />
-
-<div class="blue">
-{% for collection in site.documents %}
-{{ collection.path }}<br />
-{{ collection.modified_time }}<br />
-{{ collection.extname }}<br />
-{{ collection.output_ext }}<br />
-{{ collection.title }}<br />
-{{ collection.url }}<br />
-{{ collection.files }}<br />
-{% endfor %}
-</div>
+<ul class="collection">
+  {% for lesson in page.lesson_plans %}
+  <a class="collection-item avatar" href="../lesson_plans/{{ lesson.url }}">
+    <i class="material-icons circle teal">picture_as_pdf</i>
+    <span class="title">{{ lesson.name }}</span>
+    <p>{{ lesson.description }}</p>
+  </a>
+  {% endfor %}
+</ul>
