@@ -15,13 +15,24 @@ layout: page
 {% for crumb in crumbs %}
 
 {% capture length %}{{ forloop.length }}{% endcapture %}
-{{ length |  minus: 1 }}
+{{ length }}
 
 {% if forloop.last == true %}
-<a class="1">{{ page.title | upcase }}</a>
+<div class="green">
+{{ page.title | upcase }}
+</div>
+<br />
 
 {% else %}
-<a class="2" href="{{ site.baseurl }}{% assign crumb_limit = length %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' }}{% endfor %}">{{ crumb | replace:'-', ' ' | replace: '_', ' ' | upcase }}</a>
+<div class="blue">
+{{ site.baseurl }}
+{% assign crumb_limit = forloop.index %}
+{% for crumb in crumbs limit: crumb_limit %}
+{{ crumb | append: '/' }}
+{% endfor %}"><br />
+{{ crumb | replace:'-', ' ' | replace: '_', ' ' | upcase }}
+</div>
+<br />
 
 {% endif %}
 {% endfor %}
