@@ -5,18 +5,13 @@
         <!--<a href="{{ site.url | append: site.baseurl }}" class="brand-logo">Logo</a>-->
         <a href="#" data-activates="navigation" class="button-collapse"><i class="material-icons right">menu</i></a>
         <div class="col s12">
-          {% if page.url == site.baseurl %}
-          <a class="breadcrumb">{{ "Welcome to Jason's Classroom!" | upcase }}</a>
-          {% else %}
-          <a class="breadcrumb" href="{{ site.baseurl | append: '/' }}">{{ "Welcome" | upcase }}</a>
-          {% endif %}
 
           {% assign crumbs = page.url | split: '/' %}
-          {% for crumb in crumbs offset: 1 %}
+          {% for crumb in crumbs offset: 0 %}
           {% if forloop.last %}
           <a class="breadcrumb">{{ page.title | upcase }}</a>
           
-          {% elsif forloop.length | minus: 1 %}
+          {% else %}
           <a class="breadcrumb" href="{{ site.baseurl }}{% assign crumb_limit = forloop.index | plus: 1 | remove: 'index.html' %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | remove: 'index.html' | append: '/' }}{% endfor %}">{{ crumb | replace:'-', ' ' | replace: '_', ' ' | upcase }}</a>
 
           {% endif %}
