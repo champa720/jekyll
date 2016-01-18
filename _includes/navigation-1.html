@@ -1,10 +1,10 @@
 {% capture html %}
 
 {% if include.context == "/" %}
-<li class="{% if page.url == "/" %}active{% endif %}">
+<li class="{% if page.url == '/' %}active{% endif %}">
   <a href="{{ site.baseurl }}/"><i class="material-icons left">copyright</i>{{ site.time | date: "%Y" }}, all rights reserved</a>
 </li>
-<li class="divider"></li>
+<div class="divider"></div>
 {% endif %}
 
 {% assign entries = site.pages | sort: "path" %}

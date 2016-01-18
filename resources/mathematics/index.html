@@ -1,39 +1,21 @@
 ---
-title: Mathematics
-breadcrumb: Mathematics
+title: Mathematics Resources
 icon: widgets
+
+resources:
+  - name: Math Minutes
+    description: 1000 Essential Math Questions
+    url: /math_minutes/Math.Minutes-Complete.pdf
 
 menu: "TRUE"
 layout: page
 ---
-[Math.Minutes-Complete](../mathematics/docs/Math.Minutes-Complete)
-<br />
-[2016-Mathematics-(GP)](../mathematics/docs/2016-Mathematics-(GP))
-<br />
-<hr />
-{% assign crumbs = page.url | split: '/' %}
-{% for crumb in crumbs %}
-
-{% capture length %}{{ forloop.length }}{% endcapture %}
-{{ length }}
-
-{% if forloop.first == true %}
-<div class="yellow">
-{{ site.baseurl }}<br />
-{{ "Home" | upcase }}
-</div>
-<br />
-<div class="green">
-{{ page.title | upcase }}
-</div>
-<br />
-
-{% else %}
-<div class="blue">
-{{ site.baseurl }}{% assign crumb_limit = forloop.index %}{% for crumb in crumbs | limit: crumb_limit %}{{ crumb | append: '/' }}{% endfor %}"<br />
-{{ crumb | replace:'-', '&ensp;' | replace: '_', '&ensp;' | upcase }}
-</div>
-<br />
-
-{% endif %}
-{% endfor %}
+<ul class="collection">
+  {% for resource in page.resources %}
+  <a class="collection-item avatar" href="..{{ resource.url }}">
+    <i class="material-icons circle">picture_as_pdf</i>
+    <span class="title">{{ resource.name }}</span>
+    <p>{{ resource.description }}</p>
+  </a>
+  {% endfor %}
+</ul>
