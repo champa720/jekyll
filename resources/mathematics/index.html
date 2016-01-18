@@ -11,57 +11,13 @@ layout: page
 [2016-Mathematics-(GP)](../mathematics/docs/2016-Mathematics-(GP))
 <br />
 <hr />
-how to search three directories deep?<br />
-{% capture page_url_without_index_html %}{{ page.url }}{% endcapture %}
-1 - {{ page_url_without_index_html }}<br />
-{% assign splitted_url_parts = page_url_without_index_html | split: '/' %}
-2 - {{ splitted_url_parts }}<br />
-{% capture forLoopMaxInt %}{{ splitted_url_parts.size | minus:1 }}{% endcapture %}
-3 - {{ forLoopMaxInt }}<br />
-<hr />
-{% for i in (1..forLoopMaxInt) %}
-For loop<br />
-4 - {{ i }}<br />
-5 - {{ page_url_without_index_html }}<br />
-6 - {{ splitted_url_parts }}<br />
-7 - {{ forLoopMaxInt }}<br />
+{% assign crumbs = page.url | split: '/' %}
+{% for crumb in crumbs %}
+{% if forloop.last %}
+<a class="1">{{ page.title | upcase }}</a>
 
-{% capture current_breadcrumb_url %}{{next_prepender}}/{{ splitted_url_parts[i] }}{% endcapture %}
-8 - {{ current_breadcrumb_url }}<br />
-{% capture current_breadcrumb_md_url %}{{next_prepender}}/{{ splitted_url_parts[i] }}/{% endcapture %}
-9 - {{ current_breadcrumb_md_url }}<br />
-{% capture next_prepender %}{{next_prepender}}/{{ splitted_url_parts[i] }}{% endcapture %}
-10 - {{ next_prepender }}<br/ >
+{% else %}
+<a class="2" href="{{ site.baseurl }}{% assign crumb_limit = forloop.index %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' }}{% endfor %}">{{ crumb | replace:'-', ' ' | replace: '_', ' ' | upcase }}</a>
 
-{% for breadcrumb_page in site.pages %}
-{% capture breadcrumb_page_page_url_without_index_html %}{{ breadcrumb_page.url | remove: "index.html" }}{% endcapture %}
-12 - {{ breadcrumb_page_page_url_without_index_html }}<br />
-{% if current_breadcrumb_url == breadcrumb_page.url or current_breadcrumb_md_url == breadcrumb_page.url  %}
-13 - <a class="" href="{{ site.baseurl }}{{breadcrumb_page_page_url_without_index_html}}">{{ breadcrumb_page.breadcrumb }}</a>
 {% endif %}
 {% endfor %}
-{% endfor %}
-<hr />
-<hr />
-
-
-<div class="breadcrumbs" role="menubar" aria-label="breadcrumbs">
-  {% if page.url == '/' %}
-  <a class="breadcrumb" href="{{ site.baseurl }}/">Welcome to Jason's Classroom!</a>
-  {% else %}
-  <a class="breadcrumb" href="{{ site.baseurl }}/">Welcome</a>
-  {% endif %}
-  
- {% assign crumbs = page.url | split: '/' %}
-   {% for crumb in crumbs offset: 1 %}
-    {% if forloop.last %}
-        <a class="breadcrumb">{{ page.title | truncate: 7 }}</a>
-    {% else %}
-  
-                 {% assign crumb_limit = forloop.index | plus: 1 %}
-                 {% for crumb in crumbs limit: crumb_limit %}
-        <a class="breadcrumb" href="{{ site.baseurl | append: '/' }}{{ crumb | append: '/' }}">{{ crumb | replace:'-',' ' | capitalize }}</a>
-                 {% endfor %}
-    {% endif %}
-  {% endfor %}
-</div>
