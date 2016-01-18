@@ -68,7 +68,7 @@ iframe {
 
 /* img filter parallax */
 .parallax-container {
-  min-height: 385px;
+  min-height: 257px;
   line-height: 0;
   height: auto;
   color: rgba(255,255,255,.9);
