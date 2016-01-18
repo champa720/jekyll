@@ -7,7 +7,7 @@
         <div class="col s12">
 
           {% assign crumbs = page.url | split: '/' %}
-          {% for crumb in crumbs offset: 0 %}
+          {% for crumb in crumbs offset: 1 %}
           {% if forloop.last %}
           <a class="breadcrumb">{{ page.title | upcase }}</a>
           
