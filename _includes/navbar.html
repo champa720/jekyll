@@ -6,16 +6,12 @@
         <a href="#" data-activates="navigation" class="button-collapse"><i class="material-icons right">menu</i></a>
         <div class="col s12">
 
-          {% assign crumbs = page.url | split: '/' %}
-          {% for crumb in crumbs %}
-          {% if forloop.last %}
-          <a class="breadcrumb">{{ page.title | upcase }}</a>
-          
-          {% else %}
-          <a class="breadcrumb" href="{{ site.baseurl }}{% assign crumb_limit = forloop.index | remove: 'index.html' %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb }}{% endfor %}">{{ crumb | replace:'-', ' ' | replace: '_', ' ' | upcase }}</a>
-
-          {% endif %}
-          {% endfor %}
+  {% for crumb in breadcrumbs %}
+    <a class="breadcrumbs" href="{{ crumb.url | prepend:site.baseurl }}">{{ crumb.title }}</a>
+    {% unless forloop.last == true %}
+      >
+    {% endunless %}
+  {% endfor %}
         </div>
       </div>
       <div class="side-nav fixed" id="navigation">
