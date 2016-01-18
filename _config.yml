@@ -17,6 +17,11 @@ twitter_username: champa720
 github_username:  champa720
 
  # Collections
+collections:
+  resources:
+    output: true
+  lesson_plans:
+    output: true
 
 # Build settings
 markdown: kramdown
