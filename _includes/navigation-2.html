@@ -1,0 +1,22 @@
+{% capture html %}
+
+{% assign entries = site.pages | sort: "path" %}
+{% for entry in entries %}
+
+{% capture slug    %}{{ entry.url | split: "/"   | last                       }}{% endcapture %}
+{% capture current %}{{ entry.url | remove: slug | remove: "//" | append: "/" }}{% endcapture %}
+
+{% if current == include.context %}
+<div class="collapsible-body">
+  <ul>
+    <li class="{% if page.url contains entry.url %}active{% endif %}">
+      <a class="truncate" href="{{ entry.url | prepend: site.baseurl }}">
+        <i class="material-icons left">{{ entry.icon }}</i>{{ entry.title }}</a>
+    </li>
+  </ul>
+</div>
+{% endif %}
+
+{% endfor %}
+{% endcapture %}
+{{ html | strip_newlines | replace:'    ','' | replace:'    ','' | replace:'  ',' ' }}

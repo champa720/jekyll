@@ -1,0 +1,27 @@
+---
+title: 2015 Collection
+icon: event
+
+lesson_plans:
+  - name: Community College of Denver
+    subject: Mathematics
+    url: mathematics-ccd
+  - name: Mi Casa
+    subject: Mathematics
+    url: mathematics-mi_casa
+  - name: The Gathering Place
+    subject: Mathematics
+    url: mathematics-tgp
+
+menu: "TRUE"
+layout: page
+---
+<ul class="collection">
+  {% for lesson in page.lesson_plans %}
+  <a class="collection-item avatar" href="../2015/{{ lesson.url }}.html">
+    <i class="material-icons circle teal">picture_as_pdf</i>
+    <span class="title">{{ lesson.name }}</span>
+    <p>{{ lesson.subject }}</p>
+  </a>
+  {% endfor %}
+</ul>

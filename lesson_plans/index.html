@@ -1,0 +1,27 @@
+---
+title: All Lesson Plans
+icon: expand_more
+
+lesson_plans:
+  - name: 2014 Collection
+    description: CCD, Mi Casa, TGP
+    url: 2014
+  - name: 2015 Collection
+    description: CCD, Mi Casa, TGP
+    url: 2015
+  - name: 2016 Collection
+    description: CCD, Mi Casa, TGP
+    url: 2016
+
+layout: page
+permalink: /lesson_plans/
+---
+<ul class="collection">
+  {% for lesson in page.lesson_plans %}
+  <a class="collection-item avatar" href="../lesson_plans/{{ lesson.url }}">
+    <i class="material-icons circle teal">picture_as_pdf</i>
+    <span class="title">{{ lesson.name }}</span>
+    <p>{{ lesson.description }}</p>
+  </a>
+  {% endfor %}
+</ul>
