@@ -5,6 +5,9 @@
         <!--<a href="{{ site.url | append: site.baseurl }}" class="brand-logo">Logo</a>-->
         <a href="#" data-activates="navigation" class="button-collapse"><i class="material-icons right">menu</i></a>
         <div class="col s12">
+          {% if page.url == '/' %}
+          <a class="breadcrumb">{{ page.title | upcase }}</a>
+          {% endif %}
 
           {% assign crumbs = page.url | split: '/' %}
           {% for crumb in crumbs %}
