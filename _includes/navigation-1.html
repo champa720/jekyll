@@ -15,7 +15,7 @@
 
 {% if current == include.context %}
 <li class="{% if page.url contains entry.url %}active{% endif %}">
-  <a class="collapsible-header truncate {% if page.url contains entry.url %}active{% endif %}" href="{{ entry.url | prepend: site.baseurl }}">
+  <a class="collapsible-header truncate {% if page.url contains entry.url %}active{% endif %}" <!--href="{{ entry.url | prepend: site.baseurl }}"-->
     <i class="material-icons">{{ entry.icon }}</i>{{ entry.title }}</a>
   
   {% include navigation-2.html context=entry.url %}

@@ -12,6 +12,12 @@ lesson_plans:
   - name: The Gathering Place
     subject: Mathematics
     url: mathematics-tgp
+  - name: Reading
+    subject: Science, Social Studies, and Writing
+    url: reading
+  - name: WIAOA
+    subject: Transition
+    url: wioa
 
 menu: "TRUE"
 layout: page
@@ -20,7 +26,7 @@ layout: page
   {% for lesson in page.lesson_plans %}
   <a class="collection-item avatar" href="../2015/{{ lesson.url }}.html">
     <i class="material-icons circle teal">picture_as_pdf</i>
-    <span class="title">{{ lesson.name }}</span>
+    <span class="title"><b>{{ lesson.name }}</b></span>
     <p>{{ lesson.subject }}</p>
   </a>
   {% endfor %}
