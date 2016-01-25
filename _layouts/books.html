@@ -12,13 +12,13 @@ layout: page
         <div class="card-image valign-wrapper blue" style="max-height:75%">
           <div class="card-linear-gradient"></div>
           <img src="/assets/img/book_covers/{{ resource.image_path }}" alt="{{ resource.title }}" />
-          <i class="small material-icons white-text tooltipped" data-position="left" data-tooltip="View Chapters" style="position:absolute; right:0;">launch</i>
+          <i class="small material-icons white-text tooltipped" data-position="left" data-tooltip="View Chapters" style="position:absolute; top:0; right:0;">launch</i>
           <span class="card-title truncate">{{ resource.title }}</span>
         </div>
 
         {% else %}
         <div class="card-image valign-wrapper blue" style="height:66%">
-          <i class="small material-icons white-text tooltipped" data-position="left" data-tooltip="View Chapters" style="position:absolute; right:0">launch</i>
+          <i class="small material-icons white-text tooltipped" data-position="left" data-tooltip="View Chapters" style="position:absolute; top:0; right:0">launch</i>
           <i class="container large material-icons grey-text text-lighten-2">{{ resource.icon }}</i>
           <span class="card-title truncate">{{ resource.title }}</span>
         </div>
