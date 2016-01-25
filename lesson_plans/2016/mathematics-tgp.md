@@ -1,6 +1,8 @@
 ---
 title: TGP Mathematics
 
-iframe_path: 2016/2016-Mathematics-(GP).pdf
+folder_path: 2016/
+file_name: 2016-Mathematics-(GP).pdf
+
 layout: iframe
 ---

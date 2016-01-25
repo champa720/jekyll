@@ -3,19 +3,27 @@ title: Mathematics
 icon: widgets
 
 resources:
-  - name: Math Minutes
-    description: 1000 Essential Math Questions
-    url: math_minutes
+- title: Math Minutes
+  description: 1000 Essential Math Questions
+  icon: picture_as_pdf
+  resource_path: math_minutes
 
-menu: "TRUE"
 layout: page
 ---
+
 <ul class="collection">
   {% for resource in page.resources %}
-  <a class="collection-item avatar" href="../mathematics/{{ resource.url }}.html">
-    <i class="material-icons circle teal">picture_as_pdf</i>
-    <span class="title">{{ resource.name }}</span>
+  <a class="collection-item avatar waves-effect waves-light" href="{{ resource.resource_path }}">
+    <i class="material-icons circle teal">{{ resource.icon }}</i>
+    <span class="title">{{ resource.title }}</span>
     <p>{{ resource.description }}</p>
+  </a>
+  {% endfor %}
+  {% for collection in site.mathematics %}
+    <a class="collection-item avatar waves-effect waves-light" href="{{ collection.url }}">
+    <i class="material-icons circle teal">{{ collection.icon }}</i>
+    <span class="title">{{ collection.title }}</span>
+    <p>{{ collection.description }}</p>
   </a>
   {% endfor %}
 </ul>

@@ -1,0 +1,38 @@
+book,title,description,folder_path,file_name
+Basics,Basics - Pretest,,,
+Basics,Basics - Posttest,,,
+Basics,Basics - Answer Key,The Answer Key explains the answers for questions in the book.,Mathematics/Common.Core-Basics/,Mathematics-CCB-Answer_Key.pdf
+Basics,Basics - Glossary,The Glossary and Index contain lists of key terms found throughout the book and make it easy to review important skills presented in this book.,Mathematics/Common.Core-Basics/,Mathematics-CCB-Glossary.pdf
+Basics,Basics - Chapter 1 - Whole Numbers,"Whole Numbers introduces place value, ordering and comparing numbers, operations on numbers, factoring, rounding, estimation, and solving real-world problems with whole numbers.",Mathematics/Common.Core-Basics/,Mathematics-CCB-Chapter_1.pdf
+Basics,Basics - Chapter 2 - Decimals,"Decimals teaches decimal place value, operations with decimals, and solving real-world problems with decimals.",Mathematics/Common.Core-Basics/,Mathematics-CCB-Chapter_2.pdf
+Basics,Basics - Chapter 3 - Fractions,Fractions introduces operations with fractions and mixed numbers.,Mathematics/Common.Core-Basics/,Mathematics-CCB-Chapter_3.pdf
+Basics,Basics - Chapter 4 - Integers,"Integers explains integer concepts, including absolute value, integer operations, and the coordinate grid.",Mathematics/Common.Core-Basics/,Mathematics-CCB-Chapter_4.pdf
+Basics,Basics - Chapter 5 - Expressions and Equations,"Expressions and Equations teaches writing and evaluating expressions, solving one- and two-step equations and inequalities, and identifying patterns.",Mathematics/Common.Core-Basics/,Mathematics-CCB-Chapter_5.pdf
+Basics,Basics - Chapter 6 - Linear Equations and Functions,"Linear Equations and Functions introduces linear equations, graphing linear equations, functions, and scatter plots.",Mathematics/Common.Core-Basics/,Mathematics-CCB-Chapter_6.pdf
+Basics,"Basics - Chapter 7 - Ratios, Proportions and Percents","Ratios, Proportions, and Percents introduces ratios and rates, solving proportions, and solving percent problems.",Mathematics/Common.Core-Basics/,Mathematics-CCB-Chapter_7.pdf
+Basics,Basics - Chapter 8 - Exponents and Roots,"Exponents and Roots teaches how to evaluate expressions with exponents, roots, and scientific notation.",Mathematics/Common.Core-Basics/,Mathematics-CCB-Chapter_8.pdf
+Basics,Basics - Chapter 9 - Data,"Data introduces the measures of central tendency and range, graph and line plots, and misleading graphs.",,
+Basics,Basics - Chapter 10 - Probability,Probability explains counting methods and introduces probability and compound events.,,
+Basics,Basics - Chapter 11 - Measurement,"Measurement teaches using customary units, metric units, and converting among units.",,
+Basics,Basics - Chapter 12 - Geometry,"Geometry explores various geometric figures and solids, scale drawings and measurement, the Pythagorean theorem, and finding perimeter, circumference, area, and the volume of cones and spheres.",,
+Achieve,Achieve - Pretest,,Mathematics/Common.Core-Achieve/,Common.Core-Achieve-Mathematics-Post.Test
+Achieve,Achieve - Posttest,,Mathematics/Common.Core-Achieve/,Common.Core-Achieve-Mathematics-Pre.Test
+Achieve,Achieve - Answer Key,The Answer Key explains the answers for questions in the book.,Mathematics/Common.Core-Achieve/,Common.Core-Achieve-Mathematics-Answer.Key
+Achieve,Achieve - Glossary,The Glossary and Index contain lists of key terms found throughout the book and make it easy to review important skills presented in this book.,Mathematics/Common.Core-Achieve/,Common.Core-Achieve-Mathematics-Glossary
+Achieve,Achieve - Chapter 1 - Number Sense and Operations,,Mathematics/Common.Core-Achieve/,Common.Core-Achieve-Mathematics-Chapter.1
+Achieve,"Achieve - Chapter 2 - Ratio, Proportion, and Probability",,Mathematics/Common.Core-Achieve/,Common.Core-Achieve-Mathematics-Chapter.2
+Achieve,Achieve - Chapter 3 - Linear Equations and Inequalities,,Mathematics/Common.Core-Achieve/,Common.Core-Achieve-Mathematics-Chapter.3
+Achieve,Achieve - Chapter 4 - Polynomials and Rational Expressions,,Mathematics/Common.Core-Achieve/,Common.Core-Achieve-Mathematics-Chapter.4
+Achieve,Achieve - Chapter 5 - Linear Equations in the Coordinate Plane,,Mathematics/Common.Core-Achieve/,Common.Core-Achieve-Mathematics-Chapter.5
+Achieve,Achieve - Chapter 6 - Functions,,Mathematics/Common.Core-Achieve/,Common.Core-Achieve-Mathematics-Chapter.6
+Achieve,Achieve - Chapter 7 - Geometry and Measurement,,Mathematics/Common.Core-Achieve/,Common.Core-Achieve-Mathematics-Chapter.7
+Achieve,Achieve - Chapter 8 - Data Analysis,,Mathematics/Common.Core-Achieve/,Common.Core-Achieve-Mathematics-Chapter.8
+GED Exercise,GED Exercise - Answer Key,The Answer Key explains the answers for questions in the book.,,
+GED Exercise,GED Exercise - Chapter 1 - Number Sense and Operations,,,
+GED Exercise,"GED Exercise - Chapter 2 - Ratio, Proportion, and Probability",,,
+GED Exercise,GED Exercise - Chapter 3 - Linear Equations and Inequalities,,,
+GED Exercise,GED Exercise - Chapter 4 - Polynomials and Rational Expressions,,,
+GED Exercise,GED Exercise - Chapter 5 - Linear Equations in the Coordinate Plane,,,
+GED Exercise,GED Exercise - Chapter 6 - Functions,,,
+GED Exercise,GED Exercise - Chapter 7 - Geometry and Measurement,,,
+GED Exercise,GED Exercise - Chapter 8 - Data Analysis,,,

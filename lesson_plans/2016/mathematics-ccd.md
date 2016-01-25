@@ -1,6 +1,8 @@
 ---
 title: CCD Mathematics
 
-iframe_path: /2016/2016-Mathematics-Empower-(CCD).pdf
+folder_path: 2016/
+file_name: 2016-Mathematics-Empower-(CCD).pdf
+
 layout: iframe
 ---

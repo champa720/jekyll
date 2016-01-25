@@ -23,8 +23,29 @@ github_username:  champa720
 
  # Collections
 collections:
-  lesson_plans:
+  language_arts:
     output: true
+    permalink: /resources/language_arts/:path/
+  mathematics:
+    output: true
+    permalink: /resources/mathematics/:path/
+  science:
+    output: true
+    permalink: /resources/science/:path/
+  social_studies:
+    output: true
+    permalink: /resources/social_studies/:path/
+  writing:
+    output: true
+    permalink: /resources/writing/:path/    
 
 # Build settings
 markdown: kramdown
+
+ # jekyll-datapage-gen
+page_gen:
+  - data: 'mathematics-common_core'
+    template: 'iframe'
+    name: 'title'
+    dir: 'resources/mathematics/common_core'
+    extension: 'html'

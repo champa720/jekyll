@@ -8,16 +8,13 @@ slides:
     description: A place to study for your High School Equivalency Diploma
     image_path: /denver.jpg
   - title: Khan Academy
-    description: "&#42; Coach Code: jason.kilpatrick@ccd.edu"
     website: https://www.khanacademy.org
     image_path: /KhanAcademy.jpg
   - title: Ed Ready
-    description: "&#42; Key: TABE1-Kilpatrick"
     website: https://abetlc.edready.org
     image_path: /EdReady.jpg
   - title: Learning Library
     website: http://www.learningexpresslibrary3.com
-    description: "&#42; Must Register a Library Card"
     image_path: /LearningExpress.jpg
 
 layout: default
@@ -32,10 +29,12 @@ layout: default
         <h1><b>{{ slide.title }}</b></h1>
         <p class="flow-text">
           {% if slide.description != null and slide.website != null %}
-          <a class="thin" href="{{ slide.website }}" target="_blank">{{ slide.website }}</a><br />
-          <span class="light grey-text text-lighten-2">{{ slide.description }}</span>
+          <a class="light" href="{{ slide.website }}" target="_blank">{{ slide.website }}</a><br />
+          <span class="thin grey-text text-lighten-1">{{ slide.description }}</span>
+          {% elsif slide.website != null %}
+          <a class="light" href="{{ slide.website }}" target="_blank">{{ slide.website }}</a>
           {% elsif slide.description != null %}
-          <span class="light grey-text text-lighten-2">{{ slide.description }}</span>
+          <span class="light grey-text text-lighten-1">{{ slide.description }}</span>
         </p>
         {% endif %}
       </div>

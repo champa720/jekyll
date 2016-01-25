@@ -46,15 +46,8 @@
       intervel: 36000,
       height: 460
     });
-    $('.carousel').carousel();
     // Models
     $('.modal-trigger').leanModal();
-    if (document.documentURI === 'http://jekyll.caepa.org/programs/') {
-      $('#programs').openModal();
-    }
-    if (document.documentURI === 'http://jekyll.caepa.org/') {
-      $('#building').openModal();
-    }
     // Parallax
     $('.parallax').parallax();
     // Pushpin
