@@ -51,6 +51,8 @@ At the same time, the J apanese military conquered Manchuria in 1931 and invaded
 | USSR first allied with Germany | USSR joined Allies before war's end |
 {: .left .bordered .striped }
 
+---
+
 Germany quickly conquered most of Europe with its blitzkrieg ("lightning war," or a war done with great speed and force). In 1941, Hitler turned his armies toward the Soviet Union, despite the pact he had signed with Stalin.
 
 In the United States, isolationists wanted the country to remain neutral. Congress passed Neutrality Acts in the 1930s. The acts prevented the United States from providing support to foreign countries that were at war. However, the acts included one key exception: the United States could sell goods, except for weapons, to other nations as long as the goods were paid for immediately and the goods were transported on non-US ships.

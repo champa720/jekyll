@@ -64,6 +64,8 @@ In 1914, Archduke Francis Ferdinand, the heir to the Austro-Hungarian throne, wa
 | Japan | - |
 {: .left .bordered .striped }
 
+---
+
 By the time the United States entered the war, the warring countries were tired of fighting and neither side seemed able to win. US soldiers helped break this stalemate. On November 11, 1918, the Germans signed an armistice, or truce. Today we celebrate that date as Veterans Day.
 
 World War I made the United States a major world power. President Woodrow Wilson proposed Fourteen Points to make a lasting peace, including free trade and open diplomacy (negotiations between nations). He also proposed the League of Nations, an international organization to help nations settle disputes. However, the other Allied leaders decided that the enemy, especially the Germans, needed to be taught a lesson. Despite Wilson's efforts, the peace treaties were harsh.

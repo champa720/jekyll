@@ -49,7 +49,7 @@ The Missouri Compromise of 1820 admitted Missouri as a slave state and Maine as 
 In 1849, California asked to be admitted to the Union as a free state. Again Congress was divided along sectional lines. The Compromise of 1850 attempted to give both sides something of what they wan ted.
 
 **The Compromise of 1850**
-{: .align-center }
+{: .center-align }
 
 | Northern Compromises | Southern Compromises Won |
 |:-:|:-:|
@@ -57,13 +57,18 @@ In 1849, California asked to be admitted to the Union as a free state. Again Con
 | slave trade outlawed in the District of Columbia | passage of the Fugitive Slave Act, a law that helped slave owners recover runawa slaves |
 {: .left .bordered .striped }
 
+---
+
 Although the Compromise of 1850 settled the issues in Congress, many people in the North were angry over the Fugitive Slave Act.
 
 Further events contributed to the growth of antislavery feelings:
 
-  * In 1852, Harriet Beecher Stowe published her best-selling novel Uncle Tom's Cabin . The book showed the harshness of slave life. 
+  * In 1852, Harriet Beecher Stowe published her best-selling novel Uncle Tom's Cabin . The book showed the harshness of slave life.
+  
   * In 1854, Senator Stephen Douglas introduced a bill to create the Kansas and Nebraska territories. In order for his bill to pass, Southern senators insisted that the Missouri Compromise be overturned and slavery be allowed in the new territories. The Kansas-Nebraska Act undid the compromise. It allowed slavery in the territories if the people who settled there voted for it.
+  
   * In the Dred Scott case of 1857, the Supreme Court ruled that enslaved people were not citizens. They were the property of their masters.  The Court said that the Constitution protected slave owners' property rights, so Congress could make no law prohibiting slavery.
+  
   * In 1859, John Brown, a militant abolitionist, attacked the federal arsenal at Harpers Ferry (now part of West Virginia). An arsenal is a  place where weapons are stored. Brown wanted to arm enslaved persons for rebellion. He failed and was hanged. 
 
 #### Founding of the Republican Party
@@ -77,7 +82,7 @@ The South believed that the balance of power had been permanently tipped against
 President Lincoln, however, was unwilling to allow the Union to break up. In 1861, the Civil War began between the North and the South. Each side had certain advantages.
 
 **Civil War**
-{: .align-center }
+{: .center-align }
 
 | Northern Advantages | Southern Advantages |
 |:-:|:-:|
@@ -86,6 +91,8 @@ President Lincoln, however, was unwilling to allow the Union to break up. In 186
 | more railroads to get supplies to troops | farmers could produce plenty of food |
 | control of the national treasury | - |
 {: .left .bordered .stripped }
+
+---
 
 The Civil War began as an attempt by President Lincoln to save the Union. However, in 1863, Lincoln issued the Emancipation Proclamation, which freed the slaves living in Confederate states. Many former enslaved persons joined the Union Army as it moved through the South. This helped strengthen the Union Army.
 

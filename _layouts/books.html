@@ -38,20 +38,6 @@ layout: page
   <div class="modal-content">
     <h4>{{ resource.title }}</h4>
     <ul class="collection with-header">
-      <!-- page.data -->
-      {% if page.data_path != null %}
-      {% for data in site.data.[page.data_path] %}
-      {% if data.book == resource.title %}
-      <a class="collection-item avatar" href="{{ data.title | replace: ' ','_' | downcase | prepend: "/common_core/" }}">
-        <i class="material-icons circle teal">picture_as_pdf</i>
-        <span class="title">{{ data.title }}</span>
-        <p>{{ data.description }}</p>
-      </a>
-      {% endif %}
-      {% endfor %}
-      
-      <!-- collections --> 
-      {% else %}
       {% for collection in site.collections %}
       {% for doc in collection.docs %}
       {% for source in doc.source %}
@@ -69,7 +55,6 @@ layout: page
       {% endfor %}
       {% endfor %}
       {% endfor %}
-      {% endif %}
     </ul>
   </div>
   <div class="modal-footer">

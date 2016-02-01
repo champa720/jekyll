@@ -91,6 +91,9 @@ Americans were becoming increasingly aware of environmental issues. Drastic clim
 Great challenges existed for the United States in foreign policy as well. These were some of the problems:
 
   * The rise of China as a world power
+  
   * Continuing instability in North Africa and the Middle East
+  
   * North Korea's isolation and nuclear capacity
+  
   * hostility and nuclear ambitions in Iran

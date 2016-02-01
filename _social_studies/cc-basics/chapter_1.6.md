@@ -68,17 +68,19 @@ Despite the new constitutions, efforts were made to disenfranchise African Ameri
 
 Another device used to disenfranchise African Americans was a literacy test. When people came to vote, they were given a section of the Constitution to read and explain. African Americans were given very difficult passages, while whites were given simple passages.
 
-|**Causes and Effects of Legislation After the Civil War**|
-{: class="center-align"}
+**Causes and Effects of Legislation After the Civil War**
+{: .center-align }
 
 | Cause | Effect |
 |:-:|:-:|
 | Fourteenth and Fifteenth Amendments were passed. | Formerly enslaved persons were given the right to vote. |
 | Formerly enslaved persons were given the right to vote. | Southern states begin to disfranchise these voters. |
 | Poll taxes and literacy tests were set up. | Poor and uneducated people could not vote. |
-{: .bordered .striped }
+{: .left .bordered .striped }
 
-Women Gain the Right to Vote
+---
+
+### Women Gain the Right to Vote
 
 In 1848, a group met in Seneca Falls, New York, at the invitation of Elizabeth Cady Stanton, a young mother, and Lucretia Mott, a Quaker. Stanton wrote a Declaration of Sentiments, modeled on the Declaration of Independence. The Seneca Falls convention called for an extension of women's rights, among them the right to vote. This was a radical notion at the time. In many states, women could not own property, divorce their husbands, or have sole custody of their children.
 

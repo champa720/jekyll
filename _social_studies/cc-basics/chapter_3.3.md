@@ -118,8 +118,10 @@ Conservative Republican Ronald Reagan felt the way to deter communist threats wa
 
 In 1985, Mikhail Gorbachev came to power in the Soviet Union. He encouraged reforms to the Soviet system. Reagan and Gorbachev agreed to new arms-control treaties. Relations between the two superpowers improved.
 
-** Total Economic Assistance ( in millions of dollars )**
-|| 1960 | 1970 | 1980 | 1990 |
+**Total Economic Assistance ( in millions of dollars )**
+{: .center-align }
+
+| 1960 | 1970 | 1980 | 1990 |
 |:-:|:-:|:-:|:-:|:-:|
 | Cambodia | 128.7 | 0.0 | 86.2 | 0.1 |
 | Colombia | 63.8 | 579.8 | 52.1 | 31.0 |
@@ -127,6 +129,8 @@ In 1985, Mikhail Gorbachev came to power in the Soviet Union. He encouraged refo
 | South Korea | 1,229.1 | 622.3 | 69.3 | 0.1 |
 | Vietnam | 1.035.0 | 2,108.4 | ( < 550,000 ) | 0.1 |
 {: .left .striped .bordered }
+
+---
 
 ### George H. W. Bush, 1989-1993
 

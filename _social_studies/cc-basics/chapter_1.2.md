@@ -60,20 +60,31 @@ The framers of the Constitution relied on eleven key ideas when writing the Cons
 | Majority Rule and Minority Rights | The majority rules, but it must respect and protect the rights of individuals. |
 | Rule of Law | Laws are clear and fair, and no one is above the law, not even the government. |
 | Individual Rights | All people naturally have certain individual rights, such as life, liberty, and property. |
-{: .bordered .striped }
+{: .left .bordered .striped }
+
+---
 
 ### Amendments to the Constitution
 At the first session of Congress in 1789, popular pressure forced the Constitution's supporters to add ten amendments aimed at protecting individual rights. This Bill of Rights gives citizens the following freedoms:
 
   * freedom of speech and the press
+  
   * the right to assemble and petition the government
+  
   * the right to keep and bear arms
+  
   * protection against unreasonable search and seizure
+  
   * the right to trial by jury
+  
   * the right to due process and protection against self-incrimination
+  
   * the right to a public trial
+  
   * the right to have an attorney
+  
   * protection against excessive bail or cruel or unusual punishment
+  
   * separation of church and state
   
 Congress submitted this guarantee, or assurance, of rights to the states. All ten amendments were approved by 1791. Since the Bill of Rights, seventeen more amendments have been added. Each amendment has been passed to solve a problem. Only one amendment has been repealed, or withdrawn. The Eighteenth Amendment (1919) prohibited the drinking and sale of alcohol. It was repealed by the Twenty-First Amendment (1933).

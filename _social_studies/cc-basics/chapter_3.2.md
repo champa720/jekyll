@@ -48,11 +48,11 @@ Kennedy Assassinated On November 22, 1963, President Kennedy and his wife were r
 
 After President Kennedy's death, Vice President Lyndon Johnson was sworn in as president. Johnson announced an "unconditional [unlimited] war on poverty" and spoke about creating a "Great Society" that would "end poverty and racial injustice." Major reforms were passed both before and after Johnson's reelection in 1964.
 
-**Great Society Le2islation**
-{: .align-center }
+**Great Society Legislation**
+{: .center-align }
 
 | Program Title | Explanation of Program |
-|::|::|
+|:-:|:-:|
 | Economic Opportunity Act | Set up the Office of Economic Opportunity, which ran programs to help the poor |
 | Medicare | Health insurance for people over 65 |
 | Medicaid | Health insurance for low-income families |
@@ -61,10 +61,14 @@ After President Kennedy's death, Vice President Lyndon Johnson was sworn in as p
 | Housing and Urban Development Act | Created a government department that oversees federal government involvement in community development and housing |
 {: .left .bordered .striped }
 
+---
+
 Important Supreme Court cases were decided during this time. In a series of decisions, the Court ruled that the Bill of Rights applied to states as well as to the federal government. Specifically, the Supreme Court made these rulings:
 
   * Evidence illegally collected is inadmissible, or not allowed, in court.
+  
   * All suspects have a right to a lawyer during police questioning and at trial.
+  
   * Police must inform people of their rights when they are arrested (the Miranda warning).
   
 ### Brown v. Board of Education
@@ -104,5 +108,7 @@ In the 1960s and 1970s, Native Americans also began organizing. In 1968, Congres
 During and after World War II, more women joined the workforce. But only certain jobs were offered to women, and their pay was not equal to the pay men received. Using their experience with civil rights, women began to protest. As a result, these legislative reforms were enacted:
 
   * 1963: Equal Pay Act makes it illegal to pay men more than women for the same job
+  
   * 1964: Civil Rights Act, Title VII, outlaws job discrimination on the basis of race, color, religion, national origin, and gender
+  
   * 1972: Educational Amendments, Title IX, makes it illegal for any school receiving federal funds to discriminate on the basis of gender

@@ -55,7 +55,9 @@ State governments are organized much like the federal government. Each state has
 | Commander in Chief | Is commander of the National Guard (the state militia) |
 | Party Leader | Heads the political party in the state |
 | Ceremonial Leader | Represents the state; greets key visitors |
-{: .bordered .striped }
+{: .left .bordered .striped }
+
+---
 
 Some functions of government overlap. Both the national and state governments have the power to tax, for example. Both make and enforce laws and establish courts. However, the Constitution denies some powers to the states. A state cannot coin its own money or enter into a treaty with a foreign country. States cannot tax their exports or imports. State laws cannot contradict, or conflict with, the Constitution.
 
