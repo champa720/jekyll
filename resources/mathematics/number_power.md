@@ -23,5 +23,6 @@ resources:
   image_path: np-4.jpg
   data_path: 
 
+category: Mathematics
 layout: books
 ---

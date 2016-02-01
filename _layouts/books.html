@@ -1,7 +1,6 @@
 ---
 layout: page
 ---
-
 <div class="row">
   {% for resource in page.resources %}
   <article class="col s10 m6 offset-s1 center-align">
@@ -38,16 +37,39 @@ layout: page
 <div id="{{ resource.title | remove: ' ' | downcase }}" class="modal modal-fixed-footer">
   <div class="modal-content">
     <h4>{{ resource.title }}</h4>
-    <ul class="collection">
+    <ul class="collection with-header">
+      <!-- page.data -->
+      {% if page.data_path != null %}
       {% for data in site.data.[page.data_path] %}
       {% if data.book == resource.title %}
-      <a class="collection-item avatar" href="{{ data.title | replace: ' ','_' | downcase }}">
+      <a class="collection-item avatar" href="{{ data.title | replace: ' ','_' | downcase | prepend: "/common_core/" }}">
         <i class="material-icons circle teal">picture_as_pdf</i>
         <span class="title">{{ data.title }}</span>
         <p>{{ data.description }}</p>
       </a>
       {% endif %}
       {% endfor %}
+      
+      <!-- collections --> 
+      {% else %}
+      {% for collection in site.collections %}
+      {% for doc in collection.docs %}
+      {% for source in doc.source %}
+      {% if source.title == resource.title %}
+      {% if source.subchapter == 0 %}
+      <li class="collection-header flow-text truncate">{{ "Chapter&ensp;" | append: source.chapter | append: "&#58;&emsp;" | append: doc.title }}</li>
+      {% else %}
+      <a class="collection-item avatar" href="{{ doc.url }}">
+        <i class="material-icons circle teal">exit_to_app</i>
+        <b class="title">{{ "Chapter&ensp;" | append: source.chapter }}{{ "&#46;" | append: source.subchapter }}{{ "&#58;&emsp;" | append: doc.title }}</b>
+        <p align="justify">{{ doc.description }}</p>
+      </a>
+      {% endif %}
+      {% endif %}
+      {% endfor %}
+      {% endfor %}
+      {% endfor %}
+      {% endif %}
     </ul>
   </div>
   <div class="modal-footer">

@@ -31,7 +31,7 @@ permalink: /resources/
   {% for lesson in page.lesson_plans %}
   <a class="collection-item avatar" href="../resources/{{ lesson.url }}">
     <i class="material-icons circle teal">{{ lesson.icon }}</i>
-    <span class="title">{{ lesson.name }}</span>
+    <b class="title">{{ lesson.name }}</b>
     <p>{{ lesson.description }}</p>
   </a>
   {% endfor %}

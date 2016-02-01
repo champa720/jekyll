@@ -1,0 +1,16 @@
+---
+title: Vocabulary
+description: A collection of words essential to understanding Social Studies
+icon: sort_by_alpha
+
+category: Social Studies
+layout: page
+---
+
+<ul class="collection">
+  {% for pages in site.social_studies %}
+  {% for vocabulary in pages.vocabulary %}
+  <a class="collection-item flow-text" href="{{ pages.url }}">{{ vocabulary }}</a>
+  {% endfor %}
+  {% endfor %}
+</ul>

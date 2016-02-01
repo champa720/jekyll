@@ -13,8 +13,14 @@ lesson_plans:
     subject: Mathematics
     url: mathematics-tgp
   - name: Reading
-    subject: Science, Social Studies, and Writing
+    subject: Reading
     url: reading
+  - name: Science
+    subject: Science
+    url: science
+  - name: Social Studies
+    subject: Social Studies
+    url: social_studies
   - name: WIOA
     subject: Transition
     url: wioa
@@ -25,7 +31,7 @@ layout: page
   {% for lesson in page.lesson_plans %}
   <a class="collection-item avatar" href="../2016/{{ lesson.url }}.html">
     <i class="material-icons circle teal">picture_as_pdf</i>
-    <span class="title"><b>{{ lesson.name }}</b></span>
+    <b class="title">{{ lesson.name }}</b>
     <p>{{ lesson.subject }}</p>
   </a>
   {% endfor %}

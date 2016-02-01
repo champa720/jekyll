@@ -9,15 +9,17 @@ layout: page
   {% for resource in page.resources %}
   <a class="collection-item avatar waves-effect waves-light" href="{{ resource.resource_path }}">
     <i class="material-icons circle teal">{{ resource.icon }}</i>
-    <span class="title">{{ resource.title }}</span>
+    <b class="title">{{ resource.title }}</b>
     <p>{{ resource.description }}</p>
   </a>
   {% endfor %}
-  {% for collection in site.science %}
-    <a class="collection-item avatar waves-effect waves-light" href="{{ collection.url }}">
-    <i class="material-icons circle teal">{{ collection.icon }}</i>
-    <span class="title">{{ collection.title }}</span>
-    <p>{{ collection.description }}</p>
+  {% for page in site.pages %}
+  {% if page.category == "Science" %}
+  <a class="collection-item avatar waves-effect waves-light" href="{{ page.url }}">
+    <i class="material-icons circle teal">{{ page.icon }}</i>
+    <b class="title">{{ page.title }}</b>
+    <p>{{ page.description }}</p>
   </a>
+  {% endif %}
   {% endfor %}
 </ul>

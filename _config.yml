@@ -5,7 +5,7 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'jekyll serve'. If you change this file, please restart the server process.
 
-# Site settings
+  # Site settings
 title: "Jason's Classroom"
 email: jason.kilpatrick@ccd.edu
 description: > # this means to ignore newlines until "baseurl:"
@@ -21,7 +21,7 @@ permalinks: pretty
 twitter_username: champa720
 github_username:  champa720
 
- # Collections
+  # Collections
 collections:
   language_arts:
     output: true
@@ -37,15 +37,22 @@ collections:
     permalink: /resources/social_studies/:path/
   writing:
     output: true
-    permalink: /resources/writing/:path/    
-
-# Build settings
+    permalink: /resources/writing/:path/
+  key_concept:
+    output: true
+  
+  # Build settings
 markdown: kramdown
 
- # jekyll-datapage-gen
-page_gen:
-  - data: 'mathematics-common_core'
-    template: 'iframe'
-    name: 'title'
-    dir: 'resources/mathematics/common_core'
-    extension: 'html'
+  # MARKDOWN   
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+   # jekyll-datapage-gen
+   #  page_gen:
+   #  - data: 'mathematics-common_core'
+   #  template: 'iframe'
+   #  name: 'title'
+   #  dir: 'resources/mathematics/common_core'
+   #  extension: 'html'

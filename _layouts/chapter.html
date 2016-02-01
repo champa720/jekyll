@@ -1,0 +1,60 @@
+---
+layout: default
+---
+<section class="row">
+
+  {% include header.html %}
+  
+  <article class="section container flow-text">
+    <ul class="collapsible popout" data-collapsible="accordion">
+      <li>
+        <div class="collapsible-header">
+          <i class="material-icons left">expand_more</i>
+          <b>Objectives</b>
+        </div>
+        <div class="collapsible-body">
+          <ul class="collection">
+            {% for objectives in page.objectives %}
+            <a class="collection-item">{{ objectives }}</a>
+            {% endfor %}
+          </ul>
+        </div>
+      </li>
+      <li>
+        <div class="collapsible-header">
+          <i class="material-icons left">sort_by_alpha</i>
+          <b>Vocabulary</b>
+        </div>
+        <div class="collapsible-body">
+          <ul class="collection">
+            {% for vocabulary in page.vocabulary %}
+            <a class="collection-item">{{ vocabulary }}</a>
+            {% endfor %}
+          </ul>
+        </div>
+      </li>
+    </ul>
+  </article>
+
+  <article class="section container flow-text" align="justify">
+
+    {{ content }}
+
+  </article>
+</section>
+
+{% if page.key_concept %}
+<!-- Modal Structure -->
+<div id="key_concept" class="modal modal-fixed-footer">
+  <div class="modal-content flow-text" align="justify">
+    <h4>Key Concept</h4>
+    {% for key_concept in page.key_concept %}
+    <b>{{ key_concept.concept }}</b><br />
+    <i>{{ key_concept.example }}</i>
+    {% endfor %}
+  </div>
+  <div class="modal-footer">
+    <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Got It!</a>
+  </div>
+</div>
+{% endif %}

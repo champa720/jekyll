@@ -1,0 +1,7 @@
+{% for key_concept in site.key_concept %}
+{% if key_concept.title == page.title %}
+
+{{ key_concept.content | markdownify }}
+
+{% endif %}
+{% endfor %}
