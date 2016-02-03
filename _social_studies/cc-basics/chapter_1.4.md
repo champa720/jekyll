@@ -8,6 +8,7 @@ source:
   unit: 1
   chapter: 1
   subchapter: 4
+  pages: 38 - 43
 
 objectives:
 - Explain the ways in which national and state governments are alike and different

@@ -8,6 +8,7 @@ source:
   unit: 1
   chapter: 2
   subchapter: 2
+  pages: 78 - 85
 
 objectives:
 - Understand the causes and effects of the American Revolution

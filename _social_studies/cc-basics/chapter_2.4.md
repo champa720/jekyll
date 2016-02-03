@@ -8,6 +8,7 @@ source:
   unit: 1
   chapter: 2
   subchapter: 4
+  pages: 94 - 101
 
 objectives:
 - Understand the economic and social issues of the Progressive Era

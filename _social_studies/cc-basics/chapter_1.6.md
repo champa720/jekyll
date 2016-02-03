@@ -8,6 +8,7 @@ source:
   unit: 1
   chapter: 1
   subchapter: 6
+  pages: 48 - 53
 
 objectives:
 - Identify the general provisions of the Bill of Rights

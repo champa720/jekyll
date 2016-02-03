@@ -8,6 +8,7 @@ source:
   unit: 1
   chapter: 1
   subchapter: 5
+  pages: 44 - 47
 
 objectives:
 - Explain the role of political parties in US politics

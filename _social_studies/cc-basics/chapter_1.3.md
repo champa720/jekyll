@@ -8,6 +8,7 @@ source:
   unit: 1
   chapter: 1
   subchapter: 3
+  pages: 32 - 37
 
 objectives:
 - Identify the role and duties of the president

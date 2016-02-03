@@ -8,6 +8,7 @@ source:
   unit: 1
   chapter: 3
   subchapter: 2
+  pages: 118 - 123
 
 objectives:
 - Understand the domestic policies of Presidents Kennedy and Johnson

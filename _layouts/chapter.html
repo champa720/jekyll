@@ -5,8 +5,21 @@ layout: default
 
   {% include header.html %}
   
-  <article class="section container flow-text">
+  <article class="section container">
     <ul class="collapsible popout" data-collapsible="accordion">
+      <li class="active">
+        <div class="collapsible-header active">
+          <i class="material-icons left">expand_more</i>
+          <b>{{ page.title }}</b>
+        </div>
+        <div class="collapsible-body">
+          {% for source in page.source %}
+          <p class="collection-item">{{ source.title }}<br />
+          Unit&#58;&ensp;{{ source.unit }}&ensp;Chapter&#58;&ensp;{{ source.chapter}}&#46;{{ source.subchapter }}<br />
+          Pages&#58;&ensp;{{ source.pages }}</p>
+          {% endfor %}
+        </div>
+      </li>
       <li>
         <div class="collapsible-header">
           <i class="material-icons left">expand_more</i>
@@ -40,6 +53,12 @@ layout: default
 
     {{ content }}
 
+  </article>
+  
+  <article class="container collection with-header flow-text">
+    <div class="collection-header"><h4>Chapter Review</h4></div>
+    <a class="collection-item" href="vocabulary-review"><i class="material-icons right">exit_to_app</i>Vocabulary Review</a>
+    <a class="collection-item" href="skill-review"><i class="material-icons right">exit_to_app</i>Skill Review</a>
   </article>
 </section>
 

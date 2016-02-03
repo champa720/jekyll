@@ -8,6 +8,7 @@ source:
   unit: 1
   chapter: 3
   subchapter: 5
+  pages: 138 - 143
 
 objectives:
 - Understand the impact of the economic decline in the first decade of the twenty-first century

@@ -8,6 +8,7 @@ source:
   unit: 1
   chapter: 1
   subchapter: 2
+  pages: 26 - 31
 
 objectives:
 - Identify the factors that led to the Constitutional Convention

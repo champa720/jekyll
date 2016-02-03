@@ -8,6 +8,7 @@ source:
   unit: 1
   chapter: 2
   subchapter: 3
+  pages: 86 - 93
 
 objectives:
 - Identify the events and issues that led to the Civil War

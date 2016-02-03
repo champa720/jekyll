@@ -8,6 +8,7 @@ source:
   unit: 1
   chapter: 1
   subchapter: 1
+  pages: 18 - 25
 
 objectives:
 - Identify and compare types of modern and historical governments

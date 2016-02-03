@@ -8,6 +8,7 @@ source:
   unit: 1
   chapter: 2
   subchapter: 1
+  pages: 74 - 77
 
 objectives:
 - Identify the documents that shaped US democratic traditions

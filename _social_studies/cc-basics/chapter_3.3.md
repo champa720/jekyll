@@ -8,6 +8,7 @@ source:
   unit: 1
   chapter: 3
   subchapter: 3
+  pages: 124 - 131
 
 objectives:
 - Understand how communism affected foreign policy for the second half of the twentieth century

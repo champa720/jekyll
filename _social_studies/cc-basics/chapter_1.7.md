@@ -8,6 +8,7 @@ source:
   unit: 1
   chapter: 1
   subchapter: 7
+  pages: 54 - 59
 
 objectives:
 - Understand the opportunities and challenges facing the United States in the global society

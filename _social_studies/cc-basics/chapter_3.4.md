@@ -8,6 +8,7 @@ source:
   unit: 1
   chapter: 3
   subchapter: 4
+  pages: 132 - 137
 
 objectives:
 - Identify US domestic issues from the 1970s through the 2000s

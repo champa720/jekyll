@@ -1,7 +1,9 @@
 <header class="parallax-container valign-wrapper">
   <div class="container">
     <blockquote>
-      <h1 class="grey-text text-lighten-3 light">{{ page.title }}</h1>
+      {% for source in page.source %}
+      <h1 class="grey-text text-lighten-3 light">Chapter&ensp;{{ source.chapter }}&#46;{{ source.subchapter}}</h1>
+      {% endfor %}
     </blockquote>
   </div>
   <div class="parallax">

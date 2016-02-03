@@ -8,6 +8,7 @@ source:
   unit: 1
   chapter: 3
   subchapter: 1
+  pages: 110 - 117
 
 objectives:
 - Recognize the causes and consequences of World War II 
