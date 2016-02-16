@@ -1,0 +1,117 @@
+---
+
+---
+<h3 class="light">{{ page.title }}&ensp;{{ page.source.toc_number }}</h3>
+{% for question in page.questions %}
+{% if question.excerpt != null %}
+<div class="col s12">
+  <div class="card grey lighten-4">
+    <div class="card-content">
+      <span class="card-title">For Question(s)&ensp;{{ question.excerpt }}</span>
+      <p class="flow-text">{{ question.text }}</p>
+    </div>
+  </div>
+</div>
+
+{% else %}
+<div class="col s12">
+  <div class="card">
+    <div class="card-content">
+      <span class="card-title">Question&ensp;{{ question.number }}</span>
+      <p class="flow-text">{{ question.text }}</p>
+      <ol type="A">
+
+        {% for choice in question.choice %}
+        {% for answer in question.answer %}
+        <p>
+          {% if choice.option == "blank" %}
+          <textarea name="_{{ question.number }}" id="{{ question.number }}{{ choice.option }}" class="materialize-textarea"></textarea>
+          <label for="{{ question.number }}{{ choice.option }}">Short Response</label>
+
+          {% elsif choice.option == answer.option %}
+          <input name="_{{ question.number }}" value="correct" type="radio" id="{{ question.number }}{{ choice.option }}" />
+          <label for="{{ question.number }}{{ choice.option }}"><b>{{ choice.option }}&#46;</b>&ensp;{{ choice.text }}</label>
+
+          {% else %}
+          <input name="_{{ question.number }}" value="incorrect" type="radio" id="{{ question.number }}{{ choice.option }}" />
+          <label for="{{ question.number }}{{ choice.option }}"><b>{{ choice.option }}&#46;</b>&ensp;{{ choice.text }}</label>
+
+          {% endif %}
+        </p>
+
+        {% endfor %}
+        {% endfor %}
+      </ol>
+    </div>
+    <div class="card-action">
+
+      {% for answer in question.answer %}
+      {% if answer.option != null %}
+      <a onclick="submitAnswer_{{ question.number }}()">Check Answer</a>
+      {% endif %}
+
+      {% if answer.text != null %}
+      <a onclick="_{{ question.number }}{{ answer.option }}()">Answer Explaination</a>
+
+      {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</div>
+{% endif %}
+{% endfor %}
+
+<div class="divider"></div>
+
+<article class="section flow-text" align="justify">
+  <div class="row">
+    {{ content }}
+  </div>
+</article>
+
+<!-- START Scripts -->
+
+{% for question in page.questions %}
+<script>
+  function submitAnswer_{{ question.number }}() {
+    var radios = document.getElementsByName('_{{ question.number }}');
+    var i = 0, len = radios.length;
+    var checked = false;
+    var userAnswer;
+
+    for( ; i < len; i++ ) {
+      if(radios[i].checked) {
+        checked = true;
+        userAnswer = radios[i].value;
+      }
+    } 
+    // if user click submit button without selecting any option, alert box should be say "please select choice answer".
+    if(!checked) {
+      Materialize.toast('Please choose an answer...', 4000);
+      return;
+    }
+    // Correct answer
+    if(userAnswer === "correct") {      
+      Materialize.toast('Correct!', 4000);
+    }
+    // incorrect answer
+    else {
+      Materialize.toast('Try Again...', 4000);
+    }
+
+  }
+</script>
+
+{% for answer in question.answer %}
+{% if answer.text != null %}
+<script>
+  var _{{ question.number }}{{ answer.option }} = function () {
+    var $toastContent = $('<p>{{ answer.text }}</p>');
+    Materialize.toast($toastContent, 15000);
+  }
+</script>
+{% endif %}
+{% endfor %}
+
+{% endfor %}
+<!-- END scripts -->

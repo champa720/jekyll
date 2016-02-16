@@ -35,7 +35,7 @@
     });
     // Dialogs
     $('.tooltipped').tooltip({
-      delay: 25
+      delay: 100
     });
     // Dropdown
     // Media
@@ -46,6 +46,7 @@
       intervel: 36000,
       height: 460
     });
+    $('.materialboxed').materialbox();
     // Models
     $('.modal-trigger').leanModal();
     // Parallax
@@ -55,8 +56,23 @@
     // Scrollspy
     // Sidenav
     // Tabs
+    $('ul.tabs').tabs();
     // Transitions
     // Waves
 
   }); // end of document ready
 }(jQuery)); // end of jQuery name space
+
+// fix tabs below nav on scroll
+var tabs = $(".tabs");
+var scrolled = "tabs-scrolled";
+var header = $('header').height();
+
+$(window).scroll(function () {
+  'use strict';
+  if ($(this).scrollTop() > header) {
+    tabs.addClass(scrolled);
+  } else {
+    tabs.removeClass(scrolled);
+  }
+});

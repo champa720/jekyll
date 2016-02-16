@@ -2,9 +2,10 @@
 <html>
 
   {% include head.html %}
-  {% include navbar.html %}
 
   <body>
+    
+    {% include navbar-icon.html %}
 
     <main class="page-content">
       <div class="wrapper">
@@ -18,11 +19,5 @@
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="{{ "/assets/js/materialize.min.js" | prepend: site.baseurl }}"></script>
   <script src="{{ "/assets/js/main.js" | prepend: site.baseurl }}"></script>
-  
-  {% if page.key_concept %}
-  <script>
-    $('#key_concept').openModal();
-  </script>
-  {% endif %}
   
 </html>

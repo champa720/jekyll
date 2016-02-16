@@ -1,0 +1,47 @@
+{% for resource in page.source %}
+
+{% capture chapters %}
+
+{% for collection in site.collections %}
+{% for doc in collection.docs %}
+{% for source in doc.source %}
+{% if source.title == resource.title and source.subject == resource.subject %}
+
+{% if source.toc_type == "Chapter" %}
+<li class="{% if page.url contains doc.url %}active{% endif %}">
+  <a href="{{ doc.url }}" class="truncate">
+    {{ source.toc_type | append: '&ensp;' | append: source.toc_number | append: "&#58;&emsp;" | append: doc.title }}
+  </a>
+</li>
+<li class="divider"></li>
+
+{% endif %}
+{% endif %}
+{% endfor %}
+{% endfor %}
+{% endfor %}
+{% endcapture %}
+
+{% capture lessons %}
+
+{% for collection in site.collections %}
+{% for doc in collection.docs %}
+{% for source in doc.source %}
+{% if source.title == resource.title and source.subject == resource.subject %}
+
+{% if source.toc_type == "Lesson" and source.chapter == resource.chapter %}
+<li class="{% if page.url contains doc.url %}active{% endif %}">
+  <a href="{{ doc.url }}" class="truncate">
+    {{ source.toc_type | append: '&ensp;' | append: source.toc_number | append: "&#58;&emsp;" | append: doc.title }}
+  </a>
+</li>
+<li class="divider"></li>
+
+{% endif %}
+{% endif %}
+{% endfor %}
+{% endfor %}
+{% endfor %}
+{% endcapture %}
+
+{% endfor %}

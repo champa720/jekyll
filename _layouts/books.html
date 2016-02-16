@@ -1,54 +1,49 @@
 ---
 layout: page
 ---
-<div class="row">
-  {% for resource in page.resources %}
-  <article class="col s10 m6 offset-s1 center-align">
-    <div class="card medium hoverable waves-effect waves-dark">
-      <a class="modal-trigger" href="{{ resource.title | prepend: '#' | remove: ' ' | downcase }}">
-        
-        {% if resource.image_path != null %}
-        <div class="card-image valign-wrapper blue" style="max-height:75%">
-          <div class="card-linear-gradient"></div>
-          <img src="/assets/img/book_covers/{{ resource.image_path }}" alt="{{ resource.title }}" />
-          <i class="small material-icons white-text tooltipped" data-position="left" data-tooltip="View Chapters" style="position:absolute; top:0; right:0;">launch</i>
-          <span class="card-title truncate">{{ resource.title }}</span>
-        </div>
+{% for resource in page.resources %}
+<article class="section col s10 m4 offset-s1 center-align">
+  <div class="card medium hoverable waves-effect waves-dark">
+    <a class="modal-trigger" href="{{ resource.title | prepend: '#' | remove: ' ' | downcase }}">
 
-        {% else %}
-        <div class="card-image valign-wrapper blue" style="height:66%">
-          <i class="small material-icons white-text tooltipped" data-position="left" data-tooltip="View Chapters" style="position:absolute; top:0; right:0">launch</i>
-          <i class="container large material-icons grey-text text-lighten-2">{{ resource.icon }}</i>
-          <span class="card-title truncate">{{ resource.title }}</span>
-        </div>
+      {% if resource.image_path != null %}
+      <div class="card-image valign-wrapper blue" style="max-height:75%">
+        <div class="card-linear-gradient"></div>
+        <img src="/assets/img/book_covers/{{ resource.image_path }}" alt="{{ resource.title }}" />
+        <i class="small material-icons white-text tooltipped" data-position="left" data-tooltip="View Chapters" style="position:absolute; top:10px; right:10px;">launch</i>
+        <span class="card-title truncate">{{ resource.title }}</span>
+      </div>
 
-        {% endif %}
-        <div class="card-content grey-text text-darken-4">
-          <p class="light" align="justify">{{ resource.description  | truncate: 100, '...'}}</p>
-        </div>
-      </a>
-    </div>
-  </article>
-  {% endfor %}
-</div>
+      {% else %}
+      <div class="card-image valign-wrapper blue" style="height:66%">
+        <i class="small material-icons white-text tooltipped" data-position="left" data-tooltip="View Chapters" style="position:absolute; top:10px; right:10px">launch</i>
+        <i class="container large material-icons grey-text text-lighten-2">{{ resource.icon }}</i>
+        <span class="card-title truncate">{{ resource.title }}</span>
+      </div>
+
+      {% endif %}
+      <div class="card-content grey-text text-darken-4">
+        <p class="light" align="justify">{{ resource.description  | truncate: 100, '...'}}</p>
+      </div>
+    </a>
+  </div>
+</article>
+{% endfor %}
 
 <!-- Modal Structure -->
 {% for resource in page.resources %}
-<div id="{{ resource.title | remove: ' ' | downcase }}" class="modal modal-fixed-footer">
+<div id="{{ resource.title | remove: ' ' | downcase }}" class="modal bottom-sheet">
   <div class="modal-content">
     <h4>{{ resource.title }}</h4>
     <ul class="collection with-header">
       {% for collection in site.collections %}
       {% for doc in collection.docs %}
       {% for source in doc.source %}
-      {% if source.title == resource.title %}
-      {% if source.subchapter == 0 %}
-      <li class="collection-header flow-text truncate">{{ "Chapter&ensp;" | append: source.chapter | append: "&#58;&emsp;" | append: doc.title }}</li>
-      {% else %}
-      <a class="collection-item avatar" href="{{ doc.url }}">
-        <i class="material-icons circle teal">exit_to_app</i>
-        <b class="title">{{ "Chapter&ensp;" | append: source.chapter }}{{ "&#46;" | append: source.subchapter }}{{ "&#58;&emsp;" | append: doc.title }}</b>
-        <p align="justify">{{ doc.description }}</p>
+      {% if source.title == resource.title and source.subject == resource.subject %}      
+      {% if source.toc_type == "Chapter" %}
+      <a class="collection-item flow-text waves-effect waves-dark" href="{{ doc.url }}">
+        <i class="material-icons right">exit_to_app</i>
+        <b class="title truncate">{{ source.toc_type | append: '&ensp;' | append: source.toc_number | append: "&#58;&emsp;" | append: doc.title }}</b>
       </a>
       {% endif %}
       {% endif %}
@@ -57,8 +52,10 @@ layout: page
       {% endfor %}
     </ul>
   </div>
-  <div class="modal-footer">
-    <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Close</a>
-  </div>
+  <!--
+<div class="modal-footer">
+<a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Close</a>
+</div>
+-->
 </div>
 {% endfor %}

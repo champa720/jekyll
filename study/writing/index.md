@@ -1,0 +1,26 @@
+---
+title: Writing
+icon: edit
+
+layout: page
+---
+<article class="section container">
+  <ul class="collection">
+    {% for resource in page.resources %}
+    <a class="collection-item avatar waves-effect waves-light" href="{{ resource.resource_path }}">
+      <i class="material-icons circle teal">{{ resource.icon }}</i>
+      <b class="title">{{ resource.title }}</b>
+      <p>{{ resource.description }}</p>
+    </a>
+    {% endfor %}
+    {% for page in site.pages %}
+    {% if page.category == "Writing" %}
+    <a class="collection-item avatar waves-effect waves-dark" href="{{ page.url }}">
+      <i class="material-icons circle teal">{{ page.icon }}</i>
+      <b class="title">{{ page.title }}</b>
+      <p>{{ page.description }}</p>
+    </a>
+    {% endif %}
+    {% endfor %}
+  </ul>
+</article>

@@ -1,13 +1,14 @@
 ---
 title: Common Core Basics
+subject: Social Studies
 
 layout: page
 ---
 
 <ul class="collection with-header">
-{% for page in site.social_studies %}
-{% for source in page.source %}
-{% if source.title == "Common Core Basics" %}
+  {% for page in site.social_studies %}
+  {% for source in page.source %}
+  {% if source.title == "Common Core Basics" %}
   {% if source.subchapter == 0 %}
   <li class="collection-header flow-text truncate">{{ "Chapter&ensp;" | append: source.chapter | append: "&#58;&emsp;" | append: page.title }}</li>
   {% else %}
@@ -17,7 +18,7 @@ layout: page
     <p align="justify">{{ page.description }}</p>
   </a>
   {% endif %}
-{% endif %}
-{% endfor %}
-{% endfor %}
+  {% endif %}
+  {% endfor %}
+  {% endfor %}
 </ul>

@@ -38,7 +38,7 @@ $button-line-height: 36px !default;
 /*** Cards ***/
 $card-padding: 20px !default;
 $card-bg-color: #fff !default;
-$card-link-color: color("orange", "accent-2") !default;
+$card-link-color: color("purple", "accent-2") !default;
 $card-link-color-light: lighten($card-link-color, 20%) !default;
 
 /*** Collapsible ***/
@@ -156,6 +156,7 @@ $h6-fontsize: 1rem !default;
 
 // Footer
 $footer-bg-color: $primary-color !default;
+$copyright-bg-color: $primary-color-dark !default;
 
 // Flowtext
 $range : $large-screen - $small-screen !default;

@@ -1,0 +1,96 @@
+<div class="col s12 m4">
+  <ul id="information"class="collapsible" data-collapsible="accordion">
+    <li class="active">
+      <div class="collapsible-header truncate grey lighten-4 active">
+        <i class="material-icons left">expand_more</i>
+        <b>{{ page.title }}</b>
+      </div>
+      <div class="collapsible-body">
+        {% for source in page.source %}
+        <p>{{ source.title }}<br />Pages&#58;&ensp;{{ source.pages }}</p>
+        {% endfor %}
+      </div>
+    </li>
+    <!-- END source -->
+    <li>
+      <div class="collapsible-header truncate grey lighten-4">
+        <i class="material-icons left">expand_more</i>
+        <b>Objectives</b>
+      </div>
+      <div class="collapsible-body">
+        <ul class="collection">
+          {% for objectives in page.objectives %}
+          <li class="collection-item">{{ objectives }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+    </li>
+    <!-- END objectives -->
+    <li>
+      <div class="collapsible-header truncate grey lighten-4">
+        <i class="material-icons left">expand_more</i>
+        <b>Skills</b>
+      </div>
+      <div class="collapsible-body">
+        <ul class="collection">
+          {% for skills in page.skills %}
+          {% if skills.reading != null%}
+          <li class="collection-item">{{ skills.reading }}</li>
+          {% elsif skills.core != null%}
+          <li class="collection-item">{{ skills.core }}</li>
+          {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+    </li>
+    <!-- END skills -->
+    <li>
+      <div class="collapsible-header truncate grey lighten-4">
+        <i class="material-icons left">expand_more</i>
+        <b>Vocabulary</b>
+      </div>
+      <div class="collapsible-body">
+        <ul class="collection">
+          {% for vocabulary in page.vocabulary %}
+            {% capture page_vocab %}{{ vocabulary }}{% endcapture %}
+          
+          {% for data in site.data.ss_basics-glossary.vocabulary %}
+          {% for list in data.list %}
+            {% capture glossary_vocab %}{{ list.word }}{% endcapture %}
+          
+          {% if glossary_vocab == page_vocab %}
+          <li class="collection-item">
+            <b>{{ list.word }}</b>&emsp;<span>{{ list.pronunciation }}</span>
+            <span class="secondary-content tooltipped" data-position="left" data-tooltip="{{ list.definition }}"><i class="material-icons">info_outline</i></span>
+          </li>
+          {% endif %}
+          {% endfor %}
+          {% endfor %}
+          {% endfor %}
+        </ul>
+      </div>
+    </li>
+    <!-- END vocabulary -->
+    <li>
+      <div class="collapsible-header truncate grey lighten-4">
+        <i class="material-icons left">expand_more</i>
+        <b>Review</b>
+      </div>
+      <div class="collapsible-body">
+        <ul class="collection">
+          <a class="collection-item" href="review-vocabulary" target="_blank"><i class="material-icons right">exit_to_app</i>Vocabulary Review</a>
+          <a class="collection-item" href="review-skill" target="_blank"><i class="material-icons right">exit_to_app</i>Skill Review</a>
+          <a class="collection-item" href="practice-skill" target="_blank"><i class="material-icons right">exit_to_app</i>Skill Practice</a>
+          <a class="collection-item" href="practice-writing" target="_blank"><i class="material-icons right">exit_to_app</i>Writing Practice</a>
+        </ul>
+      </div>
+    </li>
+    <!-- END review -->
+    <li class="collection">
+      <a class="collection-item waves-effect waves-dark" href="" target="_blank">
+        <i class="material-icons right">picture_as_pdf</i><span>View PDF</span>
+      </a>
+    </li>
+    
+  </ul>
+</div>

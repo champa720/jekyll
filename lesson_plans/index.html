@@ -1,6 +1,8 @@
 ---
-title: All Lesson Plans
+title: Lesson Plans
 icon: expand_more
+
+subject: 2016
 
 lesson_plans:
   - name: 2014 Collection
@@ -13,9 +15,10 @@ lesson_plans:
     description: CCD, Mi Casa, TGP
     url: 2016
 
-layout: page
+layout: default
 permalink: /lesson_plans/
 ---
+<!--
 <ul class="collection">
   {% for lesson in page.lesson_plans %}
   <a class="collection-item avatar" href="../lesson_plans/{{ lesson.url }}">
@@ -25,3 +28,32 @@ permalink: /lesson_plans/
   </a>
   {% endfor %}
 </ul>
+-->
+<div class="side-nav fixed" style="top:64px;" id="navigation">
+  <ul class="collapsible" data-collapsible="accordion">
+    <li class="active">
+      <div class="collapsible-header active">
+        <i class="material-icons">expand_more</i>
+        <b>Lesson Plans</b>
+      </div>
+      <div class="collapsible-body">
+        <ul>
+          
+          {% for file in site.static_files %}
+          {% capture slug %}{{ file.path | split: "/" }}{% endcapture %}
+          {% if file.extname == ".pdf" and slug contains "lesson_plans" %}
+          <li id="PDF" class="waves-effect waves-dark">
+            <a href="{{ file.path }}" target="something">{{ file.path }}</a>
+          </li>
+
+          {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+    </li>
+  </ul>
+</div>
+  
+<iframe id="main" name="something" src="http://www.jasonsclassroom.com">
+  <p>Your browser does not support iframes.</p>
+</iframe>

@@ -1,0 +1,48 @@
+---
+layout: page
+---
+<ul class="tabs z-depth-1">
+  <li class="tab"><a href="#lesson">Lesson</a></li>
+  <li class="tab"><a href="#review_1">Vocabulary Review</a></li>
+  <li class="tab"><a href="#review_2">Skill Review</a></li>
+  <li class="tab"><a href="#review_3">Skill Practice</a></li>
+</ul>
+
+
+
+<article id="lesson" class="section container" align="justify">
+  <aside>
+    {% include information.html %}
+  </aside>
+  <main class="flow-text">
+    {{ content }}
+  </main>
+</article>
+
+<article id="review_1" class="section container" align="justify">
+  
+</article>
+
+<article id="review_2" class="section container" align="justify">
+
+</article>
+
+<article id="review_3" class="section container" align="justify">
+  
+</article>
+
+{% if page.key_concept %}
+<!-- Modal Structure -->
+<div id="key_concept" class="modal modal-fixed-footer">
+  <div class="modal-content flow-text" align="justify">
+    <h4>Key Concept</h4>
+    {% for key_concept in page.key_concept %}
+    <b>{{ key_concept.concept }}</b><br />
+    <i>{{ key_concept.example }}</i>
+    {% endfor %}
+  </div>
+  <div class="modal-footer">
+    <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Got It!</a>
+  </div>
+</div>
+{% endif %}

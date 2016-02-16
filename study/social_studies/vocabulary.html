@@ -1,0 +1,42 @@
+---
+title: Vocabulary
+description: A collection of words essential for understanding Social Studies
+icon: sort_by_alpha
+
+category: Social Studies
+layout: page
+---
+<article class="section container">
+  <ul class="collapsible popout" data-collapsible="accordion">
+    {% for data in site.data.ss_basics-glossary.vocabulary %}
+    <li>
+      <div class="collapsible-header">
+        <i class="material-icons">expand_more</i>
+        <b class=" flow-text">{{ data.alphabet }}</b>
+      </div>
+      <div class="collapsible-body">
+        <ul class="collection">
+          {% for list in data.list %}
+            {% capture glossary_vocab %}{{ list.word }}{% endcapture %}
+
+          {% for pages in site.social_studies %}
+          {% for vocabulary in pages.vocabulary %}
+            {% capture page_vocab %}{{ vocabulary }}{% endcapture %}
+            {% capture page_url %}{{ pages.url }}{% endcapture%}
+
+          {% if glossary_vocab == page_vocab %}
+          <a class="collection-item flow-text truncate" href="{{ page_url }}">
+            <b>{{ list.word }}</b>&emsp;<span>{{ list.pronunciation }}</span>
+            <span class="secondary-content tooltipped" data-position="left" data-tooltip="{{ list.definition }}"><i class="material-icons">info_outline</i></span>
+          </a>
+
+          {% endif %}
+          {% endfor %}
+          {% endfor %}
+          {% endfor %}
+        </ul>
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
+</article>

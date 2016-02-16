@@ -18,28 +18,31 @@ random_path: https://unsplash.it/1024/758/?blur
 
 permalinks: pretty
 
-twitter_username: champa720
+facebook: http://www.facebook.com/groups/jasonsclassroom
 github_username:  champa720
 
   # Collections
 collections:
   language_arts:
+    icon: book
     output: true
-    permalink: /resources/language_arts/:path/
+    permalink: /study/language_arts/:path/
   mathematics:
+    icon: widgets
     output: true
-    permalink: /resources/mathematics/:path/
+    permalink: /study/mathematics/:path/
   science:
+    icon: lightbulb_outline
     output: true
-    permalink: /resources/science/:path/
+    permalink: /study/science/:path/
   social_studies:
+    icon: account_balance
     output: true
-    permalink: /resources/social_studies/:path/
+    permalink: /study/social_studies/:path/
   writing:
+    icon: edit
     output: true
-    permalink: /resources/writing/:path/
-  key_concept:
-    output: true
+    permalink: /study/writing/:path/
   
   # Build settings
 markdown: kramdown

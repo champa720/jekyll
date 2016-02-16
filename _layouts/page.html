@@ -1,15 +1,82 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html>
 
-<article class="container">
+  {% include head.html %}
 
-  <header class="page-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-  </header>
+  <body>
 
-  <div class="page-content">
-    {{ content }}
-  </div>
+    {% include navbar-icon.html %}
 
-</article>
+    <header class="parallax-container valign-wrapper">
+      <div class="container">
+        <blockquote>
+          <h1 class="thin truncate">{{ page.title }}</h1>
+          {% if page.source != null %}
+          {% for source in page.source %}
+          <h2 class="grey-text text-lighten-3 light">
+            {{ source.toc_type | append: '&ensp;' | append: source.toc_number }}
+          </h2>
+          {% endfor %}
+          {% else %}
+          <h2 class="grey-text text-lighten-3 light">{{ page.description }}</h2>
+          {% endif %}
+        </blockquote>
+      </div>
+      <div class="parallax">
+        <img alt="" src="{{ site.image_path }}">
+      </div>
+    </header>
+
+    <main class="page-content">
+      <section class="row">
+        {{ content }}
+      </section>
+    </main>
+
+    <footer class="page-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5 class="white-text">{{ site.title }}</h5>
+            <p class="grey-text text-lighten-4">{{ site.description }}</p>
+          </div>
+          <div class="col l4 offset-l2 s12">
+            <h5 class="white-text">Links</h5>
+            <ul>
+              <li><a class="grey-text text-lighten-4" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+              <li><a class="grey-text text-lighten-3" href="{{ site.facebook }}" target="_blank">{{ site.facebook }}</a></li>
+              <li><a class="grey-text text-lighten-3" href="/lesson_plans/">Lesson Plans</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container valign-wrapper">
+          <i class="material-icons left">copyright</i>
+          <span>{{ site.time | date: "%Y" }}, all rights reserved</span>
+        </div>
+      </div>
+    </footer>
+
+  </body>
+
+  <!-- scripts -->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="{{ "/assets/js/materialize.min.js" | prepend: site.baseurl }}"></script>
+  <script src="{{ "/assets/js/main.js" | prepend: site.baseurl }}"></script>
+
+  {% if page.key_concept %}
+  <script>
+    $('#key_concept').openModal();
+  </script>
+  {% endif %}
+  {% if page.source %}
+  <script>
+    $("#review_0").load("chapter-review");
+    $("#review_1").load("review-vocabulary");
+    $("#review_2").load("review-skill");
+    $("#review_3").load("practice-skill");
+  </script>
+  {% endif %}
+
+</html>
