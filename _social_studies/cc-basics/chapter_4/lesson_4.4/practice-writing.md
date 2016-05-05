@@ -16,7 +16,12 @@ questions:
     choice:
       - option: blank
     answer:
-      - text: 
+      - text: >
+          As you think about your response, consider how your use of technology has changed in recent years.
+          <br /><br />
+          Sample Response
+          <br /><br />
+          Some developing countries, like Angola and Bangladesh, have very few telephones (landlines). However, more than half of the people in Angola and Bangladesh now have cell phones. This is happening all over the world, and it is changing the developing world very quickly. People in these countries can quickly contact one another. They also can make contacts all around the world. When important events 'Occur, people in the developing world know about them at once. Cell phones are also changing the way foreign aid and international business are conducted.
         
 layout: cc_review
 ---

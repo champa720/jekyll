@@ -16,7 +16,12 @@ questions:
     choice:
       - option: blank
     answer:
-      - text: 
+      - text: >
+          Is there only one place to buy a particular product in your town or neighborhood? That is a monopoly.
+          <br /><br />
+          Sample Response
+          <br /><br />
+          The Tex-Mex Pizza Company in my neighborhood is the only pizza parlor that delivers free. I don't really like the spicy taste of their sauce, but I end up ordering their pizza anyway out of convenience. I would be happy if other pizza shops would offer free delivery, because then customers would have more choices. If there was competition, local pizza parlors might even offer coupons or specials-and that would save customers money.
         
 layout: cc_review
 ---

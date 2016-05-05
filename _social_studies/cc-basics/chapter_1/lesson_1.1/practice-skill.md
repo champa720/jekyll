@@ -22,26 +22,29 @@ questions:
       <li class="collection-item">Amendment 9: The rights of the people are not limited to the rights listed in the Constitution.</li>
       </ul>
   - number: 1
-    text: Why do you think the authors of the US Bill of Rights thought it was necessary to include these rights in the Constitution?
+    text: >
+      Why do you think the authors of the US Bill of Rights thought it was necessary to include these rights in the Constitution?
     choice:
       - option: blank
     answer:
-      - option: 
-        text: Just because
+      - text: >
+          The founders knew that some rights had been abused in the past. They wanted to protect citizens in the new country.
   - number: 2
-    text: In what way did the English Bill of Rights influence the US Bill of Rights?
+    text: >
+      In what way did the English Bill of Rights influence the US Bill of Rights?
     choice:
       - option: blank
     answer:
-      - option: 
-        text: 
+      - text: >
+          The authors of the Constitution and the Bill of Rights were descended from English people, so English law would have influenced their thinking. They knew that the English Bill of Rights had protected the people from the king, and they thought all people should have those same rights.
   - number: 3
-    text: Why do you think the authors of the US Bill of Rights included Amendment 9?
+    text: >
+      Why do you think the authors of the US Bill of Rights included Amendment 9?
     choice:
       - option: blank
     answer:
-      - option: 
-        text: 
+      - text: >
+          The authors knew they couldn't name every right, but they wanted to protect citizens from all possible abuses by the government.
         
 layout: cc_review
 ---

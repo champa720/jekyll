@@ -8,14 +8,6 @@ source:
   toc_type: Lesson Review
   toc_number: 5.9
   pages: 230 - 235
-
-vocabulary:
-- option: checking account
-- option: credit score
-- option: deposit
-- option: financial planning
-- option: savings account
-- option: withdraw
   
 questions:
   - excerpt: 1, 2 ,3 , 4, 5

@@ -22,8 +22,9 @@ questions:
       - option: D
         text: the surplus of the product
     answer:
-      - option: 
-        text: 
+      - option: B
+        text: >
+          The market equilibrium of a product represents the point where the price and the supply of the product are balanced.
   - number: 2
     text: According to the law of demand, what relationship exists between the price of a product and the quantity demanded of the product?
     choice:
@@ -36,8 +37,9 @@ questions:
       - option: D
         text: When quantity demanded is constant, the price increases.
     answer:
-      - option: 
-        text: 
+      - option: C
+        text: >
+          The law of demand states that when the price of a product decreases, the quantity demanded increases.
         
 layout: cc_review
 ---

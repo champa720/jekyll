@@ -10,64 +10,38 @@ source:
   pages: 
 
 questions:
-  - excerpt: 
-    text: 
   - number: 1
-    text: 
+    text: >
+      Which phrase best summarizes US economic performance over the past century?
     choice:
       - option: A
-        text: 
+        text: mostly uncontrolled inflation
       - option: B
-        text: 
+        text: mostly economic growth
       - option: C
-        text: E
+        text: mostly massive unemployment
       - option: D
-        text: 
+        text: mostly declines in gross domestic product
     answer:
-      - option: 
-        text: 
+      - option: B
+        text: >
+          The long-term trend for the US economy has been one of growth.
   - number: 2
-    text: 
+    text: >
+      "US Unemployment Rate Drops to 5 Percent of Labor Force." What does this headline say about the US economy?
     choice:
       - option: A
-        text: 
+        text: It has achieved full employment.
       - option: B
-        text: 
+        text: It has entered a cycle of contraction.
       - option: C
-        text: 
+        text: It should expect an increase in inflation.
       - option: D
-        text: 
+        text: It has no frictional unemployment.
     answer:
-      - option: 
-        text: 
-  - number: 3
-    text: 
-    choice:
       - option: A
-        text: 
-      - option: B
-        text: 
-      - option: C
-        text: 
-      - option: D
-        text: 
-    answer:
-      - option: 
-        text: 
-  - number: 4
-    text: 
-    choice:
-      - option: A
-        text: 
-      - option: B
-        text: 
-      - option: C
-        text: 
-      - option: D
-        text: 
-    answer:
-      - option: 
-        text: 
+        text: >
+          Full employment is defined as the point when the unemployment rate is 5 percent.
         
 layout: cc_review
 ---

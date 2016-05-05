@@ -81,8 +81,9 @@ questions:
       - option: D
         text: a shoelace
     answer:
-      - option: 
-        text: 
+      - option: C
+        text: >
+          A service is an action performed for someone else. A shoeshine is an action. The other choices are goods, or objects.
   - number: 10
     text: Which are the input for a laundromat?
     choice:
@@ -95,8 +96,9 @@ questions:
       - option: D
         text: all of the above
     answer:
-      - option: 
-        text: 
+      - option: D
+        text: >
+          At a laundromat, laundry is washed with laundry soap in washing machines that use electricity and water. Customers use laundry carts to carry laundry from washing machines to dryers. Therefore, all these elements are input for the laundromat.
   - excerpt: 11
     text: 
       ec·o·nom·ic (adjective) relating to the economy or to business<br />
@@ -107,7 +109,8 @@ questions:
     choice:
       - option: blank
     answer:
-      - text: 
+      - text: >
+          Sample answer: An economic transaction is the process of doing business with someone. I made an economic transaction today when I paid my bus fare.
         
 layout: cc_review
 ---

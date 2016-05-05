@@ -4,17 +4,12 @@
       <!--<a href="{{ site.url | append: site.baseurl }}" class="brand-logo">Logo</a>-->
 
       {% if page.url == '/' %}
-      <a class="col breadcrumb">{{ page.title | upcase }}</a>
-
+      <div class="col left truncate">
+        <a class="breadcrumb">{{ page.title | upcase }}</a>
+      </div>
       {% elsif page.source != null %}
-      <!--<a href="#" data-activates="navigation" class="btn button-collapse show-on-large">
-<i class="material-icons">menu</i>
-</a>
--->      
-      <ul class="left">
-        <a class="col left tooltipped" data-position="bottom" data-tooltip="{{ site.title | upcase }}" href="/">
-          <i class="material-icons">home</i>
-        </a>
+      <!-- source navigation -->
+      <ul class="left hide-on-small-only">
         <li>
           <a href="#" data-activates="chapters" class="dropdown-button">
             <i class="material-icons right">arrow_drop_down</i>Chapters</a>
@@ -24,36 +19,75 @@
             <i class="material-icons right">arrow_drop_down</i>Lessons</a>
         </li>
       </ul>
-
+      <!-- source mobile navigation -->
+      <div class="col left hide-on-med-and-up">
+        <a href="#" data-activates="source-navigation" class="button-collapse">
+          <i class="material-icons">menu</i>
+        </a>
+      </div>
       {% else %}
       <a class="col left tooltipped" data-position="bottom" data-tooltip="{{ site.title | upcase }}" href="/">
-        <i class="material-icons">home</i></a>
-
+        <i class="material-icons">home</i>
+      </a>
       {% endif %}
+      
+      <!-- navigation -->
       <ul class="right">
+        <span class="hide-on-small-only">
+          {% for collection in site.collections %}
+          {% if collection.label != "posts" %}
+          <li class="{% if page.url contains collection.label %}active {% endif %}tooltipped" data-position="bottom" data-tooltip="{{ 'Study_' | append: collection.label | replace: '_',' ' | upcase }}">
+            <a href="{{ collection.label | prepend: '/study/' | prepend: site.baseurl }}">
+              <i class="material-icons">{{ collection.icon }}</i>
+              <span class="hide">{{ collection.label | replace: '_',' ' | upcase }}</span>
+            </a>
+          </li>
 
-        {% for collection in site.collections %}
-        {% if collection.label != "posts" %}
-        <li class="{% if page.url contains collection.label %}active {% endif %}tooltipped" data-position="bottom" data-tooltip="{{ 'Study_' | append: collection.label | replace: '_',' ' | upcase }}">
-          <a href="{{ collection.label | prepend: '/study/' | prepend: site.baseurl }}">
-            <i class="material-icons">{{ collection.icon }}</i>
-            <span class="hide">{{ collection.label | replace: '_',' ' | upcase }}</span>
-          </a>
-        </li>
-
-        {% endif %}
-        {% endfor %}
+          {% endif %}
+          {% endfor %}
+        </span>
+        <!-- mobile navigation -->
         <li>
           <a href="#" data-activates="more" class="dropdown-button">
             <i class="material-icons">more_vert</i><span class="hide">More</span></a>
         </li>
       </ul>
+
+      {% if page.source != null %}
+      <!-- side-nav -->
+      <ul class="side-nav" id="source-navigation">
+        <li>
+          <a href="/" class="truncate">
+            <i class="material-icons left">home</i>
+            {{ site.title }}
+          </a>
+          <div class="divider"></div>
+        </li>
+        <ul class="collapsible" data-collapsible="accordion">
+
+        </ul>
+      </ul>
+
+      {% endif %}
     </div>
   </nav>
 </div>
 
-
 <!-- dropdown -->
+<ul id="more" class="dropdown-content collection">
+  {% for pages in site.pages %}
+  {% for slide in pages.slides %}
+  {% if slide.website != null %}
+  <a class="collection-item avatar" href="{{ slide.website }}" target="_blank">
+    <img src="{{ "/assets/img" | append: slide.image_path | prepend: site.baseurl }}" class="circle">
+    <b>{{ slide.title }}</b><br />
+    <span>{{ slide.website }}</span>
+  </a>
+  {% endif %}
+  {% endfor %}
+  {% endfor %}
+</ul>
+
 {% if page.source != null %}
 {% include chapter-dropdown.html %}
 <ul id="chapters" class="dropdown-content">
@@ -63,15 +97,3 @@
   {{ lessons }}
 </ul>
 {% endif %}
-
-<ul id="more" class="dropdown-content collection">
-  {% for pages in site.pages %}
-  {% for slide in pages.slides %}
-  <a class="collection-item avatar" href="{{ slide.website }}" target="_blank">
-    <img src="{{ "/assets/img" | append: slide.image_path | prepend: site.baseurl }}" class="circle">
-    <b>{{ slide.title }}</b><br />
-    <span>{{ slide.website }}</span>
-  </a>
-  {% endfor %}
-  {% endfor %}
-</ul>

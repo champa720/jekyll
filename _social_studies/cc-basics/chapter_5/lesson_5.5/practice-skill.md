@@ -18,13 +18,15 @@ questions:
     choice:
       - option: blank
     answer:
-      - text: 
+      - text: >
+          The cartoon refers to the creation of small regional phone companies after the breakup of AT&T in 1984.
   - number: 2
     text: What is the meaning of "competitive market" in the second frame of the comic?
     choice:
       - option: blank
     answer:
-      - text: 
+      - text: >
+          "Competitive market" refers to a market structure based on competition. Previously AT&T had no competition within a region, so it had little reason to improve its customer service.
         
 layout: cc_review
 ---

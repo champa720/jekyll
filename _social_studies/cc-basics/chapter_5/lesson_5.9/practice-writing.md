@@ -16,7 +16,12 @@ questions:
     choice:
       - option: blank
     answer:
-      - text: 
+      - text: >
+          If you do not have a credit card, write about the experiences of a friend or family member.
+          <br /><br />
+          Sample Response
+          <br /><br />
+          My history of using credit cards has had its ups and downs. When I got my first credit card, I bought a lot of items that I didn't really need and couldn't afford. I was paying the minimum amount each month, and the interest almost made me broke. After a year, I canceled my card, but it took me a couple more years to pay off my debt. Recently I managed to qualify for another credit card. I use it very carefully. I don't want to get into financial trouble by overspending again.
         
 layout: cc_review
 ---

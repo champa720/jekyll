@@ -22,8 +22,9 @@ questions:
       - option: D
         text: Even though only a few people control government, the views of most of the people are represented.
     answer:
-      - option: 
-        text: 
+      - option: C
+        text: >
+          When only a few people control the government, the viewpoint of these people has great influence over the law. Often these people are not elected, so they have no responsibility to the citizens of the country.
   - number: 2
     text: Which is a function of all governments?
     choice:
@@ -36,8 +37,9 @@ questions:
       - option: D
         text: controlling the economy
     answer:
-      - option: 
-        text: 
+      - option: A
+        text: >
+          All governments write laws.
   - number: 3
     text: Which statement best explains the difference between a dictatorship and a totalitarian dictatorship?
     choice:
@@ -50,8 +52,9 @@ questions:
       - option: D
         text: In a dictatorship, one person controls the government. In a totalitarian dictatorship, one person controls not only the government but also all political, social, and economic matters.
     answer:
-      - option: 
-        text: 
+      - option: D
+        text: >
+          Dictators control the government. A totalitarian dictator not only controls the government, he also controls all aspects of life.
         
 layout: cc_review
 ---

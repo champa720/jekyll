@@ -8,16 +8,6 @@ source:
   toc_type: Lesson Review
   toc_number: 5.7
   pages: 218 - 223
-
-vocabulary:
-- option: division of labor
-- option: efficiently
-- option: input
-- option: interdependence
-- option: interpret
-- option: output
-- option: productivity
-- option: specialization
   
 questions:
   - excerpt: 1, 2, 3, 4, 5, 6, 7
@@ -34,7 +24,7 @@ questions:
       - option: productivity
       - option: specialization
     answer: 
-      - option: 
+      - option: output
   - number: 2
     text: how efficiently work is done
     choice:
@@ -47,7 +37,7 @@ questions:
       - option: productivity
       - option: specialization
     answer: 
-      - option: 
+      - option: productivity
   - number: 3
     text: focus on one task
     choice:
@@ -60,7 +50,7 @@ questions:
       - option: productivity
       - option: specialization
     answer: 
-      - option: 
+      - option: specialization
   - number: 4
     text: something put into a process
     choice:
@@ -73,7 +63,7 @@ questions:
       - option: productivity
       - option: specialization
     answer: 
-      - option: 
+      - option: input
   - number: 5
     text: mutual assistance
     choice:
@@ -86,7 +76,7 @@ questions:
       - option: productivity
       - option: specialization
     answer: 
-      - option: 
+      - option: interdependence
   - number: 6
     text: accomplished with the least effort
     choice:
@@ -99,7 +89,7 @@ questions:
       - option: productivity
       - option: specialization
     answer: 
-      - option: 
+      - option: efficiently
   - number: 7
     text: sharing work tasks among several workers
     choice:
@@ -112,7 +102,7 @@ questions:
       - option: productivity
       - option: specialization
     answer: 
-      - option: 
+      - option: division of labor
 
 layout: cc_review
 ---

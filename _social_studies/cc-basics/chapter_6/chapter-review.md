@@ -196,8 +196,7 @@ On the following chart, circle the number of any question you answered incorrect
 
 | Lesson | Question Number | Review Pages |
 |:-|:-|:-|
-||||
-||||
-||||
-||||
+| Major Economic Events | 5, 6, 8 | 244 - 249 |
+| Industrialization and Imperialism | 1, 2, 7, 9, 10 | 250 - 255 |
+| Scientific and Industrial Revolutions | 3, 4, 11 | 256 - 261 |
 {: .striped }

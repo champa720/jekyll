@@ -57,7 +57,7 @@ In 1849, California asked to be admitted to the Union as a free state. Again Con
 |:-|:-|
 | California admitted as a free state | no restrictions on slavery in the territories of Utah and New Mexico |
 | slave trade outlawed in the District of Columbia | passage of the Fugitive Slave Act, a law that helped slave owners recover runawa slaves |
-{: .bordered .striped }
+{: .striped }
 
 ---
 
@@ -90,7 +90,7 @@ President Lincoln, however, was unwilling to allow the Union to break up. In 186
 | industrial resources, such as factories and shops to produce weapons and other supplies | most of the fighting happened on Southern land |
 | more railroads to get supplies to troops | farmers could produce plenty of food |
 | control of the national treasury | - |
-{: .left .bordered .striped }
+{: .striped }
 
 ---
 

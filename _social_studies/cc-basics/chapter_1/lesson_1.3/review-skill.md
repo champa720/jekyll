@@ -13,7 +13,7 @@ questions:
   - excerpt: 1 - 2
     text: >
       Members of the Supreme Court look carefully at each case. In 1969 in the case of Tinker v. Des Moines Independent Community School District, the justices voted seven to two in favor of students who wore black armbands to school to protest the Vietnam War. The students believed that  this act was part of their First Amendment right to free speech. It did not pose a threat to the school or to the students. Most of the justices agreed.
-      
+      <br /><br />
       In contrast, the 1988 case of Hazelwood School District v. Kuhlmeier resulted in a different decision, though the issue was similar. The justices did not uphold what some high school students believed to be free speech. The principal had censored several pages of the school newspaper. The Court upheld his right to do so, stating that publications produced in the name of the school had to be consistent with the school's educational mission.
   - number: 1
     text: What do the two cases show about the Supreme Court?

@@ -8,14 +8,6 @@ source:
   toc_type: Lesson Review
   toc_number: 5.2
   pages: 190 - 195
-
-vocabulary:
-- option: demand
-- option: implied main idea
-- option: market
-- option: market equilibrium
-- option: money
-- option: supply
   
 questions:
   - number: 1

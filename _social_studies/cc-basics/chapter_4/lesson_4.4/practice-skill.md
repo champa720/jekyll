@@ -25,8 +25,9 @@ questions:
       - option: D
         text: The number of cell phone subscribers and telephones is about the same in all countries.
     answer:
-      - option: 
-        text: 
+      - option: B
+        text: >
+          There are more cell phone subscribers per 100 people than telephones per 100 people in each country shown in the chart.
   - number: 2
     text: Which nations have an infant mortality rate lower than that of the United States?
     choice:
@@ -39,8 +40,9 @@ questions:
       - option: D
         text: Germany and Italy
     answer:
-      - option: 
-        text: 
+      - option: D
+        text: >
+          Germany has 4 infant deaths per 1,000 births and Italy has 3, while the United States has 6 infant deaths per 1,000 births.
   - number: 3
     text: Which nation has the highest fertility rate?
     choice:
@@ -53,8 +55,9 @@ questions:
       - option: D
         text: United States
     answer:
-      - option: 
-        text: 
+      - option: C
+        text: >
+          Angola has a fertility rate of 6 children per woman. This is the highest rate of any of the countries listed.
         
 layout: cc_review
 ---

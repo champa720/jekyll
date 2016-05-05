@@ -16,7 +16,18 @@ questions:
     choice:
       - option: blank
     answer:
-      - text: 
+      - text: >
+          Consider cost, time, and profit when you make your suggestion to Sam.
+          <br /><br />
+          Sample Response
+          <br /><br />
+          Dear Sam:
+          <br /><br />
+          It's time to make a final decision about how much we produce each day. The deli has a long line of customers every day, and they all want a tasty lunch. I've looked at our production possibilities, and I think we should make 300 sandwiches and 200 subs every day. This is the greatest number of items we can produce, so it would allow us to satisfy the greatest number of people each day.
+          <br /><br />
+          Sincerely,
+          <br /><br />
+          Anna
         
 layout: cc_review
 ---

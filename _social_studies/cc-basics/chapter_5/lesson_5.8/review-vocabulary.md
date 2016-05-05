@@ -8,16 +8,6 @@ source:
   toc_type: Lesson Review
   toc_number: 5.8
   pages: 224 - 229
-
-vocabulary:
-- option: circulation
-- option: expenditures
-- option: fiscal policy
-- option: inflation
-- option: interest rate
-- option: monetary policy
-- option: national debt
-- option: revenue
   
 questions:
   - number: 1

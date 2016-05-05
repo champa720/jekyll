@@ -8,16 +8,6 @@ source:
   toc_type: Lesson Review
   toc_number: 4.3
   pages: 164 - 169
-
-vocabulary:
-- alike
-- authorization
-- different
-- executive agreement
-- implement
-- negotiate
-- quota
-- treaty
   
 questions:
   - number: 1

@@ -2,6 +2,7 @@
 
 ---
 <h3 class="light">{{ page.title }}&ensp;{{ page.source.toc_number }}</h3>
+
 {% for question in page.questions %}
 {% if question.excerpt != null %}
 <div class="col s12">
@@ -25,15 +26,15 @@
         {% for answer in question.answer %}
         <p>
           {% if choice.option == "blank" %}
-          <textarea name="_{{ question.number }}" id="{{ question.number }}{{ choice.option }}" class="materialize-textarea"></textarea>
+          <textarea name="{{ page.title | remove: ' ' }}_{{ question.number }}" id="{{ question.number }}{{ choice.option }}" class="materialize-textarea"></textarea>
           <label for="{{ question.number }}{{ choice.option }}">Short Response</label>
 
           {% elsif choice.option == answer.option %}
-          <input name="_{{ question.number }}" value="correct" type="radio" id="{{ question.number }}{{ choice.option }}" />
+          <input name="{{ page.title | remove: ' ' }}_{{ question.number }}" value="correct" type="radio" id="{{ question.number }}{{ choice.option }}" />
           <label for="{{ question.number }}{{ choice.option }}"><b>{{ choice.option }}&#46;</b>&ensp;{{ choice.text }}</label>
 
           {% else %}
-          <input name="_{{ question.number }}" value="incorrect" type="radio" id="{{ question.number }}{{ choice.option }}" />
+          <input name="{{ page.title | remove: ' ' }}_{{ question.number }}" value="incorrect" type="radio" id="{{ question.number }}{{ choice.option }}" />
           <label for="{{ question.number }}{{ choice.option }}"><b>{{ choice.option }}&#46;</b>&ensp;{{ choice.text }}</label>
 
           {% endif %}
@@ -47,12 +48,11 @@
 
       {% for answer in question.answer %}
       {% if answer.option != null %}
-      <a onclick="submitAnswer_{{ question.number }}()">Check Answer</a>
+      <a onclick="submitAnswer_{{ page.title | remove: ' ' }}_{{ question.number }}()"  class="truncate">Check Answer</a>
       {% endif %}
 
       {% if answer.text != null %}
-      <a onclick="_{{ question.number }}{{ answer.option }}()">Answer Explaination</a>
-
+      <a href="#{{ page.title | remove: ' ' }}_{{ question.number }}" class="{{ page.title | replace: ' ','_' | downcase }}-ae-trigger truncate">Answer Explanation</a>
       {% endif %}
       {% endfor %}
     </div>
@@ -72,9 +72,10 @@
 <!-- START Scripts -->
 
 {% for question in page.questions %}
+
 <script>
-  function submitAnswer_{{ question.number }}() {
-    var radios = document.getElementsByName('_{{ question.number }}');
+  function submitAnswer_{{ page.title | remove: ' ' }}_{{ question.number }}() {
+    var radios = document.getElementsByName('{{ page.title | remove: ' ' }}_{{ question.number }}');
     var i = 0, len = radios.length;
     var checked = false;
     var userAnswer;
@@ -102,16 +103,26 @@
   }
 </script>
 
+
 {% for answer in question.answer %}
 {% if answer.text != null %}
-<script>
-  var _{{ question.number }}{{ answer.option }} = function () {
-    var $toastContent = $('<p>{{ answer.text }}</p>');
-    Materialize.toast($toastContent, 15000);
-  }
-</script>
+<div id="{{ page.title | remove: ' ' }}_{{ question.number }}" class="modal modal-fixed-footer">
+  <div class="modal-content flow-text">
+    <h4>Answer Explanation, Question {{ question.number }}</h4>
+    <div class="card-panel grey lighten-3">
+      {{ question.text }}
+    </div>
+    <p>{{ answer.text }}</p>
+  </div>
+  <div class="modal-footer">
+    <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Got it!</a>
+  </div>
+</div>
 {% endif %}
 {% endfor %}
-
 {% endfor %}
 <!-- END scripts -->
+
+<script>
+  $('.{{ page.title | replace: ' ','_' | downcase }}-ae-trigger').leanModal();
+</script>

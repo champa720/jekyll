@@ -23,8 +23,9 @@ questions:
       - option: D
         text: opportunity cost
     answer:
-      - option: 
-        text: 
+      - option: B
+        text: >
+          Store of value means that money keeps its worth over time.
   - number: 2
     text: >
       Regina owns a business and needs to borrow $1 million to expand it. At which financial institution will Regina apply for a business loan?
@@ -38,8 +39,9 @@ questions:
       - option: D
         text: commercial bank
     answer:
-      - option: 
-        text: 
+      - option: D
+        text: >
+          Commercial banks lend money to businesses.
   - number: 3
     text: >
       FDIC insurance directly protects which group in the US economy?
@@ -53,8 +55,9 @@ questions:
       - option: D
         text: consumers
     answer:
-      - option: 
-        text: 
+      - option: A
+        text: >
+          The FDIC insures money in savings accounts.
         
 layout: cc_review
 ---

@@ -16,7 +16,12 @@ questions:
     choice:
       - option: blank
     answer:
-      - text: 
+      - text: >
+          You have probably heard both of these terms used on news broadcasts. Be sure you know the difference.
+          <br /><br />
+          Sample Response
+          <br /><br />
+          Both politicians and diplomats are involved in government. A politician is elected to public office; in contrast, a diplomat is appointed. For example, the  president (who is voted into office) is a politician, while the secretary of state (who is appointedby the president) is a diplomat. Both the president and the secretary of state may discuss issues and negotiate with foreign leaders.
         
 layout: cc_review
 ---

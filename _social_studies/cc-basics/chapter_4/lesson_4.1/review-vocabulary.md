@@ -8,17 +8,6 @@ source:
   toc_type: Lesson Review
   toc_number: 1.5
   pages: 44 - 47
-
-vocabulary:
-- administering
-- democracy
-- dictatorship
-- escalate
-- governments
-- institution
-- monarchy
-- oligarchy
-- purpose
   
 questions:
   - number: 1

@@ -4,6 +4,9 @@ nav {
   box-shadow: none;
 }
 */
+body {
+  background-color: ghostwhite;
+}
 .nav-wrapper .col {
     padding-left: 24px;
 }
@@ -24,9 +27,9 @@ iframe#main {
 
 /* reverses icon on collapsibles */
 .collapsible-header.active i {
-  -ms-transform: rotate(180deg); /* IE 9 */
-  -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
-  transform: rotate(180deg);
+  -ms-transform: rotate(90deg); /* IE 9 */
+  -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+  transform: rotate(90deg);
 }
 
 /* temporary fix for tabs scrollbar */
@@ -54,6 +57,7 @@ article h6 {
 ul#information {
   margin: 1.78rem;
   margin-left: 0;
+  background-color: #fff;
 }
 
 /* iframe slides

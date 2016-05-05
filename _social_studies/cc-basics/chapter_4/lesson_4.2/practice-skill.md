@@ -25,8 +25,9 @@ questions:
       - option: D
         text: The UN headquarters belongs to its member states.
     answer:
-      - option: B
-        text: 
+      - option: A
+        text: >
+          The main idea is that the UN is an international organization. All the details emphasize this idea.
   - number: 2
     text: How do economic organizations help prevent future wars?
     choice:
@@ -39,8 +40,9 @@ questions:
       - option: D
         text: by making the economic decisions for all their members
     answer:
-      - option: 
-        text: 
+      - option: B
+        text: >
+          Economic organizations help stabilize economies. They also provide a way for countries to settle economic disputes peacefully.
   - number: 3
     text: Which part of the UN has the most influence over world affairs?
     choice:
@@ -53,8 +55,9 @@ questions:
       - option: D
         text: UNICEF
     answer:
-      - option: 
-        text: 
+      - option: A
+        text: >
+          The Security Council investigates disagreements that threaten world peace. Member nations agree to follow its decisions (though that does not always happen).
   - number: 4
     text: The United Nations was formed as a reaction to World War II. What other international organization was formed as a result of this conflict?
     choice:
@@ -67,8 +70,9 @@ questions:
       - option: D
         text: EU
     answer:
-      - option: 
-        text: 
+      - option: B
+        text: >
+          NATO is a military alliance formed after World War II. Its goal was to prevent aggression from the Soviet Union.
         
 layout: cc_review
 ---

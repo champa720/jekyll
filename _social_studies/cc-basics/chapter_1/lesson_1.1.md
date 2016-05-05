@@ -62,3 +62,52 @@ The colonists who came to America knew about the changes in government that were
 ### Dictatorships
 
 A dictatorship is a government ruled by one person or by a small group that has absolute power. The dictator determines the laws and holds power over everyone in the country. Dictators often come to power by force or by misleading the people. Adolf Hitler of Germany and Idi Amin of Uganda were dictators.
+
+---
+
+## READING PRIMARY DOCUMENTS
+
+Primary documents are original papers. They include letters, autobiographies, speeches, and official records.
+
+The Declaration of Independence is one of the most important documents ever written. The Declaration of Independence states that the American colonists had the right to rebel against rule by England and to establish a new nation. It was drafted by Thomas Jefferson in 1776 while he was representing Virginia at the Second Continental Congress.
+
+Jefferson drew on earlier documents to create his powerful statement of the values and beliefs of the colonists. One of these documents was the Virginia Declaration of Rights, which was written by George Mason and adopted in June 1776. This statement of the rights of the people of Virginia also set out the plan for the government of Virginia.
+
+Directions: Read the passages below from the Virginia Declaration of Rights and the Declaration of Independence. In a notebook, list the similarities regarding the freedom of all humans and the right of people to govern themselves.
+
+These are the first two sections of the Virginia Declaration of Rights.
+
+>Section 1. That all men are by nature equally free and independent and have certain inherent rights, of which, when they enter into a state of society, they cannot, by any compact, deprive or divest their posterity; namely, the enjoyment of life and liberty, with the means of acquiring and possessing property, and pursuing and obtaining happiness and safety.
+
+>Section 2. That all power is vested in, and consequently derived from, the people; that magistrates are their trustees and servants and at all times amenable to them.
+
+The passage below is the beginning of the second paragraph of the
+Declaration of Independence.
+
+>We hold these truths to be self-evident, that all men are created equal, that they are endowed by their Creator with certain unalienable Rights, that among these are Life, Liberty and the pursuit of Happiness.-That to secure these rights, Governments are instituted among Men, deriving their just powers from the consent of the governed, - That whenever any Form of Government becomes destructive of these ends, it is the Right of the People to alter or to abolish it, and to institute new Government, laying its foundation on such principles and organizing its powers in such form, as to them shall seem most likely to effect their Safety and Happiness.
+
+---
+
+## THE MAGNA CARTA AND THE US CONSTITUTION
+
+The Magna Carta and the US Constitution are important primary documents. They are studied by people learning about government.
+
+The Magna Carta was written in 1215 by nobles wanting to protect their rights from a king who had absolute power. It formed the basis for Great Britain's development as a constitutional monarchy.
+
+Following is a paraphrase of part of the Magna Carta.
+
+>Item 20: A freeman shall not be punished for a minor crime except to the degree of the crime. For a serious offense, he shall be punished according to the seriousness of that crime.
+
+>Item 39: No freeman shall be imprisoned or have his rights taken away except by the lawful judgment of his peers, or equals, and by the law of the land.
+
+>Item 40: No one shall be denied or delayed the right to justice.
+
+The US Constitution, written in 1787, is the document that establishes US laws. Some of its authors, including Thomas Jefferson and James Madison, believed the document did not do enough to protect the rights of individuals. In 1789, Madison presented Congress with a list of suggested Constitutional amendments, or changes. The ten amendments added to the Constitution in 1791 became known as the Bill of Rights. The following text is taken from three of the amendments.
+
+>Amendment 5: No person shall be ... deprived of life, liberty, or property without due process of law.
+
+>Amendment 6: In all criminal prosecutions, the accused shall enjoy the right to a speedy and public trial, by an impartial jury of the state and district wherein the crime shall have been committed.
+
+>Amendment 8: Excessive bail shall not be required, nor excessive fines imposed, nor cruel and unusual punishments inflicted.
+
+The US Constitution was written more than 550 years after the Magna Carta. However, over that long period of time, many of the same ideas about government remained important to people.

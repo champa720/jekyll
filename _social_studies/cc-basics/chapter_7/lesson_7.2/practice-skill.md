@@ -4,70 +4,44 @@ title: Skill Practice
 source:
 - title: Common Core Basics
   subject: Social Studies
-  chapter: 
+  chapter: 7
   toc_type: Lesson Review
-  toc_number: 
-  pages: 
+  toc_number: 7.2
+  pages: 274 - 277
 
 questions:
-  - excerpt: 
-    text: 
   - number: 1
-    text: 
+    text: >
+      Which best describes the main function of the World Bank?
     choice:
       - option: A
-        text: 
+        text: It stabilizes national currencies.
       - option: B
-        text: 
+        text: It provides development loans.
       - option: C
-        text: E
+        text: It distributes foreign aid.
       - option: D
-        text: 
+        text: It regulates international trade.
     answer:
-      - option: 
-        text: 
+      - option: B
+        text: >
+          The main purpose of the World Bank is to provide grants and low-interest loans to businesses in developing countries.
   - number: 2
-    text: 
+    text: >
+      According to the opponents of globalization, which group would least likely be hurt by globalization?
     choice:
       - option: A
-        text: 
+        text: workers in poorer countries
       - option: B
-        text: 
+        text: small businesses in poorer countries
       - option: C
-        text: 
+        text: people who lack modern information technologies
       - option: D
-        text: 
+        text: stockholders of major international companies
     answer:
-      - option: 
-        text: 
-  - number: 3
-    text: 
-    choice:
-      - option: A
-        text: 
-      - option: B
-        text: 
-      - option: C
-        text: 
       - option: D
-        text: 
-    answer:
-      - option: 
-        text: 
-  - number: 4
-    text: 
-    choice:
-      - option: A
-        text: 
-      - option: B
-        text: 
-      - option: C
-        text: 
-      - option: D
-        text: 
-    answer:
-      - option: 
-        text: 
+        text: >
+          Opponents of globalization argue that the stockholders of major international companies have the most to gain from global trade. Globalization may bring jobs to developing countries, but often they are not good jobs.
         
 layout: cc_review
 ---

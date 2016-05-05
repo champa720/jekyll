@@ -8,6 +8,16 @@ source:
   toc_type: Lesson Review
   toc_number: 1.3
   pages: 32 - 37
+  
+questions:
+  - number: 1
+    text: >
+      
+    choice:
+      - option: blank
+    answer:
+      - text: >
+          
 
 layout: cc_review
 ---

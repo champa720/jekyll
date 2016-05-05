@@ -19,7 +19,8 @@ questions:
     choice:
       - option: blank
     answer:
-      - text: 
+      - text: >
+          Sample answer: The evidence describes some of the effects of the Depression. But since President Hoover took office just seven months before the crash, it is unlikely that he was the cause of the crash.
   - excerpt: 2, 3
     text: >
       The following is an excerpt from President Franklin D. Roosevelt's Inaugural Address, delivered to the American people on March 4, 1933, at the height of the Great Depression. 
@@ -31,14 +32,16 @@ questions:
     choice:
       - option: blank
     answer:
-      - text: 
+      - text: >
+          Government jobs will directly benefit the people who are employed. In addition, work that is needed (like building roads) will get done.
   - number: 3
     text: >
       What course of action is not acceptable to FDR?
     choice:
       - option: blank
     answer:
-      - text: 
+      - text: >
+          FDR says that it is n ot acceptable to simply talk about solving the economic problem. Action is needed.
         
 layout: cc_review
 ---

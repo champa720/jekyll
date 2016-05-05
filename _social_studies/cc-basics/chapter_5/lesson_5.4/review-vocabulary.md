@@ -8,15 +8,6 @@ source:
   toc_type: Lesson Review
   toc_number: 5.4
   pages: 202 - 207
-
-vocabulary:
-- option: adequate
-- option: commercial bank
-- option: credit union
-- option: Federal Reserve System
-- option: fiat money
-- option: money supply
-- option: savings institution
   
 questions:
   - number: 1

@@ -328,8 +328,13 @@ On the following chart, circle the number of any question you answered incorrect
 
 | Lesson | Question Number | Review Pages |
 |:-|:-|:-|
-||||
-||||
-||||
-||||
+| Basic Economic Concepts | 5 | 184 - 189 |
+| The Role of the Market | 1, 2, 6, 7 | 190 - 195 |
+| The Role of Government | 3, 4, 8 | 196 - 201 |
+| Money and Financial Institutions | 10 | 202 - 207 |
+| Monopoly and Competition | 11 | 208 - 213 |
+| Profit | 12, 13 | 214 - 217 |
+| Productivity and Interdependence | 18, 19 | 218 - 223 |
+| Fiscal and Monetary Policy | 9, 14, 15 | 224 - 229 |
+| Credit, Savings, and Banking | 16, 17 | 230 - 235 |
 {: .striped }

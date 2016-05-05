@@ -64,7 +64,7 @@ In 1914, Archduke Francis Ferdinand, the heir to the Austro-Hungarian throne, wa
 | Italy | (Turkey) |
 | United States | - |
 | Japan | - |
-{: .left .bordered .striped }
+{: .striped }
 
 ---
 

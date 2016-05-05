@@ -212,8 +212,6 @@ On the following chart, circle the number of any question you answered incorrect
 
 | Lesson | Question Number | Review Pages |
 |:-|:-|:-|
-||||
-||||
-||||
-||||
+| National Economic Performance | 1, 2, 3, 6, 10, 11, 12 | 270 - 273 |
+| Global Markets | 4, 5, 7, 8, 9, 13 | 274 - 277 |
 {: .striped }

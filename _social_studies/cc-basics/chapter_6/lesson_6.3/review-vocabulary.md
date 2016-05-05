@@ -4,44 +4,132 @@ title: Vocabulary Review
 source:
 - title: Common Core Basics
   subject: Social Studies
-  chapter: 
+  chapter: 6
   toc_type: Lesson Review
-  toc_number: 
-  pages: 
-
-vocabulary:
-- option: 
-- option: 
-- option: 
-- option: 
-- option: 
-- option: 
+  toc_number: 6.3
+  pages: 256 - 261
   
 questions:
   - number: 1
-    text: 
+    text: >
+      sudden and dramatic change
     choice:
-      - option: 
+      - option: analyze
+      - option: Digital Revolution
+      - option: era
+      - option: fundamental
+      - option: Industrial Revolution
+      - option: revolution
+      - option: Scientific Revolution
+      - option: theory
+      - option: Transportation Revolution
     answer: 
-      - option: 
+      - option: revolution
   - number: 2
-    text: 
+    text: >
+      period of time
     choice:
-      - option: 
+      - option: analyze
+      - option: Digital Revolution
+      - option: era
+      - option: fundamental
+      - option: Industrial Revolution
+      - option: revolution
+      - option: Scientific Revolution
+      - option: theory
+      - option: Transportation Revolution
     answer: 
-      - option: 
+      - option: era
   - number: 3
-    text: 
+    text: >
+      idea that explains observations
     choice:
-      - option: 
+      - option: analyze
+      - option: Digital Revolution
+      - option: era
+      - option: fundamental
+      - option: Industrial Revolution
+      - option: revolution
+      - option: Scientific Revolution
+      - option: theory
+      - option: Transportation Revolution
     answer: 
-      - option: 
+      - option: theory
   - number: 4
-    text: 
+    text: >
+      change in ways of moving
     choice:
-      - option: 
+      - option: analyze
+      - option: Digital Revolution
+      - option: era
+      - option: fundamental
+      - option: Industrial Revolution
+      - option: revolution
+      - option: Scientific Revolution
+      - option: theory
+      - option: Transportation Revolution
     answer: 
-      - option: 
+      - option: Transportation Revolution
+  - number: 5
+    text: >
+      growth of digital devices
+    choice:
+      - option: analyze
+      - option: Digital Revolution
+      - option: era
+      - option: fundamental
+      - option: Industrial Revolution
+      - option: revolution
+      - option: Scientific Revolution
+      - option: theory
+      - option: Transportation Revolution
+    answer: 
+      - option: Digital Revolution
+  - number: 6
+    text: >
+      development of science
+    choice:
+      - option: analyze
+      - option: Digital Revolution
+      - option: era
+      - option: fundamental
+      - option: Industrial Revolution
+      - option: revolution
+      - option: Scientific Revolution
+      - option: theory
+      - option: Transportation Revolution
+    answer: 
+      - option: Scientific Revolution
+  - number: 7
+    text: >
+      basic
+    choice:
+      - option: analyze
+      - option: Digital Revolution
+      - option: era
+      - option: fundamental
+      - option: Industrial Revolution
+      - option: revolution
+      - option: Scientific Revolution
+      - option: theory
+      - option: Transportation Revolution
+    answer: 
+      - option: fundamental
+  - number: 8
+    text: >
+      change in ways of manufacturing
+    choice:
+      - option: analyze
+      - option: Digital Revolution
+      - option: era
+      - option: fundamental
+      - option: Industrial Revolution
+      - option: revolution
+      - option: Scientific Revolution
+      - option: theory
+      - option: Transportation Revolution
+    answer: 
+      - option: Industrial Revolution
 
 layout: cc_review
 ---

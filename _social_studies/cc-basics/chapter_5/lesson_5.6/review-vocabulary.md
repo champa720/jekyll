@@ -8,15 +8,6 @@ source:
   toc_type: Lesson Review
   toc_number: 5.6
   pages: 214 - 217
-
-vocabulary:
-- option: capital
-- option: incentive
-- option: interpret
-- option: morale
-- option: productivity
-- option: profit
-- option: text structure
   
 questions:
   - excerpt: 1, 2, 3, 4, 5, 6

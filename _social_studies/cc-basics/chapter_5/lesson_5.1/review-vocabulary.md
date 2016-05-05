@@ -8,14 +8,6 @@ source:
   toc_type: Lesson Review
   toc_number: 5.1
   pages: 184 - 189
-
-vocabulary:
-- option: factor of production
-- option: opportunity cost
-- option: production possibilities
-- option: curve
-- option: scarcity
-- option: table
   
 questions:
   - number: 1

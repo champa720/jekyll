@@ -29,21 +29,24 @@ questions:
     choice:
       - option: blank
     answer:
-      - text: 
+      - text: >
+          The author implies that the government is not doing enough to be sure that everyone in the United States gets an adequate education. The author argues that a lack of education is one of the causes of poverty.
   - number: 2
     text: >
       What would happen if the government did nothing? Use the data to explain your response.
     choice:
       - option: blank
     answer:
-      - text: 
+      - text: >
+          Sample answer: If the government does not improve educational standards, too many people will continue to earn low incomes.
   - number: 3
     text: >
       Does the information imply that poverty can be completely eliminated? Explain.
     choice:
       - option: blank
     answer:
-      - text: 
+      - text: >
+          Sample answer: Poverty cannot be eliminated completely by education, but a better education will improve the lives of many people.
         
 layout: cc_review
 ---

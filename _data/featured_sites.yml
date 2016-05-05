@@ -1,0 +1,14 @@
+- title: Khan Academy
+  description:
+  website: https://www.khanacademy.org
+  image_path: /KhanAcademy.jpg
+
+- title: Ed Ready
+  description:
+  website: https://abetlc.edready.org
+  image_path: /EdReady.jpg
+
+- title: Learning Library
+  description:
+  website: http://www.learningexpresslibrary3.com
+  image_path: /LearningExpress.jpg

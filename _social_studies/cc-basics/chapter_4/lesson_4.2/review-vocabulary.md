@@ -8,15 +8,6 @@ source:
   toc_type: Lesson Review
   toc_number: 4.2
   pages: 158 - 161
-
-vocabulary:
-- alliances
-- diplomatic
-- established
-- foreign policy
-- obtain
-- ratify
-- supporting details
   
 questions:
   - number: 1

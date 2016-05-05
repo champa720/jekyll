@@ -8,15 +8,6 @@ source:
   toc_type: Lesson Review
   toc_number: 5.3
   pages: 196 - 201
-
-vocabulary:
-- option: analyze
-- option: faulty logic
-- option: limited government
-- option: public goods
-- option: recession
-- option: tax
-- option: transfer payment
   
 questions:
   - number: 1

@@ -4,70 +4,48 @@ title: Skill Practice
 source:
 - title: Common Core Basics
   subject: Social Studies
-  chapter: 
+  chapter: 6
   toc_type: Lesson Review
-  toc_number: 
-  pages: 
+  toc_number: 6.2
+  pages: 250 - 256
 
 questions:
-  - excerpt: 
-    text: 
+  - excerpt: 1, 2
+    text: >
+      The Spanish-American War
+      <img class="resonsive-img materialboxed" src="-spanish_american_war.png" />
   - number: 1
-    text: 
+    text: >
+      According to the two maps, which statement is correct?
     choice:
       - option: A
-        text: 
+        text: More battles took place in the Caribbean than in the Philippines. 
       - option: B
-        text: 
+        text: US forces had an easier route to the Caribbean.
       - option: C
-        text: E
+        text: There was an equal number of US naval blockades in the Caribbean and the Philippines.
       - option: D
-        text: 
+        text: Spanish forces traveled from China to the Philippines
     answer:
-      - option: 
-        text: 
+      - option: A
+        text: >
+          According to the maps, there were two battles in Cuba and one battle in the Philippines.
   - number: 2
-    text: 
+    text: >
+      Where did US forces land in the Caribbean?
     choice:
       - option: A
-        text: 
+        text: Haiti and the Dominican Republic
       - option: B
-        text: 
+        text: Jamaica and Haiti
       - option: C
-        text: 
+        text: Cuba and Jamaica
       - option: D
-        text: 
+        text: Cuba and Puerto Rico
     answer:
-      - option: 
-        text: 
-  - number: 3
-    text: 
-    choice:
-      - option: A
-        text: 
-      - option: B
-        text: 
-      - option: C
-        text: 
       - option: D
-        text: 
-    answer:
-      - option: 
-        text: 
-  - number: 4
-    text: 
-    choice:
-      - option: A
-        text: 
-      - option: B
-        text: 
-      - option: C
-        text: 
-      - option: D
-        text: 
-    answer:
-      - option: 
-        text: 
+        text: >
+          The arrows on the Caribbean map show that US forces landed in Cuba and then went to Puerto Rico.
         
 layout: cc_review
 ---

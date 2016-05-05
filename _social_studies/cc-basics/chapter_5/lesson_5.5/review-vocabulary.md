@@ -8,15 +8,6 @@ source:
   toc_type: Lesson Review
   toc_number: 5.5
   pages: 208 - 213
-
-vocabulary:
-- option: barrier to entry
-- option: competition
-- option: demand
-- option: innovation
-- option: market structure
-- option: monopoly
-- option: multiple-meaning word
   
 questions:
   - number: 1

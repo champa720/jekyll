@@ -25,8 +25,9 @@ questions:
       - option: D
         text: Some Supreme Court decisions limit freedoms in order to prevent these freedoms from being abused.
     answer:
-      - option: B
-        text: 
+      - option: D
+        text: >
+          The Supreme Court tries to make decisions that prevent people from abusing freedom.
   - number: 2
     text: The Supreme Court's decision in Bethel v. Fraser was based on its interpretation of which freedom?
     choice:
@@ -39,8 +40,9 @@ questions:
       - option: D
         text: religion
     answer:
-      - option: 
-        text: 
+      - option: B
+        text: >
+          This case was a ruling on freedom of speech.
   - excerpt: 3
     text: >
       <blockquote>The Fifth Amendment states "nor shall any person be subject for the same offense to be twice put in jeopardy of life or limb; nor shall be compelled in any criminal case to be a witness against himself, nor be deprived of life. liberty, or property, without due process of law; nor shall private property be taken for public use without just compensation.</blockquote>
@@ -57,8 +59,9 @@ questions:
       - option: D
         text: "nor sha ll private property be taken for public use without just compensation"
     answer:
-      - option: 
-        text: 
+      - option: B
+        text: >
+          The Miranda Rights state that a suspect has the right to remain silent. This protects people from saying something that could be used against them in court.
         
 layout: cc_review
 ---

@@ -51,7 +51,7 @@ At the same time, the Japanese military conquered Manchuria in 1931 and invaded 
 | Italy | Great Britan |
 | Japan | United States |
 | USSR first allied with Germany | USSR joined Allies before war's end |
-{: .left .bordered .striped }
+{: .striped }
 
 ---
 

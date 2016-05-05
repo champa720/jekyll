@@ -22,8 +22,9 @@ questions:
       - option: D
         text: credit agencies
     answer:
-      - option: 
-        text: 
+      - option: C
+        text: >
+          Banks are private businesses whose goal is to make money through the fees they charge.
   - number: 2
     text: How do commercial banks differ from credit unions?
     choice:
@@ -36,8 +37,9 @@ questions:
       - option: D
         text: all of the above
     answer:
-      - option: 
-        text: 
+      - option: B
+        text: >
+          Commercial banks and credit unions both offer similar bank accounts and services. Credit unions, however, are owned by their members.
   - number: 3
     text: Which should you use to pay monthly bills?
     choice:
@@ -50,8 +52,9 @@ questions:
       - option: D
         text: credit report
     answer:
-      - option: 
-        text: 
+      - option: A
+        text: >
+          Checking accounts are used for paying bills and making other payments. Money in savings accounts is often used to make major purchases. Credit cards are not usually used to pay monthly bills. Your credit report is information about how well you pay bills; it is not a type of bank account.
   - number: 4
     text: Who is likely to pay a higher interest rate on a car loan?
     choice:
@@ -64,8 +67,9 @@ questions:
       - option: D
         text: someone who has had a steady job for several years
     answer:
-      - option: 
-        text: 
+      - option: C
+        text: >
+          Banks will charge higher interest rates to people who have not been responsible about paying bills on time.
         
 layout: cc_review
 ---

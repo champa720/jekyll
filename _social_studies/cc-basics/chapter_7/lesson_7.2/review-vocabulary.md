@@ -4,44 +4,48 @@ title: Vocabulary Review
 source:
 - title: Common Core Basics
   subject: Social Studies
-  chapter: 
+  chapter: 7
   toc_type: Lesson Review
-  toc_number: 
-  pages: 
+  toc_number: 7.2
+  pages: 274 - 277
 
 vocabulary:
-- option: 
-- option: 
-- option: 
-- option: 
-- option: 
-- option: 
+- option: assumption
+- option: foreign direct investment
+- option: globalization
+- option: stabilize 
   
 questions:
   - number: 1
-    text: 
+    text: >
+      __________ is an investment a company makes in a foreign country.
     choice:
-      - option: 
+      - option: assumption
+      - option: foreign direct investment
+      - option: globalization
+      - option: stabilize 
     answer: 
-      - option: 
+      - option: foreign direct investment
   - number: 2
-    text: 
+    text: >
+      __________ is the process of integrating the economies of the world.
     choice:
-      - option: 
+      - option: assumption
+      - option: foreign direct investment
+      - option: globalization
+      - option: stabilize 
     answer: 
-      - option: 
+      - option: globalization
   - number: 3
-    text: 
+    text: >
+      The IMF works to help __________ the economies of poorer countries.
     choice:
-      - option: 
+      - option: assumption
+      - option: foreign direct investment
+      - option: globalization
+      - option: stabilize 
     answer: 
-      - option: 
-  - number: 4
-    text: 
-    choice:
-      - option: 
-    answer: 
-      - option: 
+      - option: stabilize
 
 layout: cc_review
 ---

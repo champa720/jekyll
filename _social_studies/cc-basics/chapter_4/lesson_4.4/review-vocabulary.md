@@ -8,14 +8,6 @@ source:
   toc_type: Lesson Review
   toc_number: 4.4
   pages: 170 - 175
-
-vocabulary:
-- ethnic cleansing
-- fossil fuels
-- global culture
-- judge
-- outcome
-- terrorism
   
 questions:
   - number: 1

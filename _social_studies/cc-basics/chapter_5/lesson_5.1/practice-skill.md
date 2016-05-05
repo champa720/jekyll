@@ -22,8 +22,9 @@ questions:
       - option: D
         text: People have limited resources but unlimited wants and needs
     answer:
-      - option: 
-        text: 
+      - option: D
+        text: >
+          Scarcity exists because people have many wants and needs, but they have limited resources (money and time).
   - number: 2
     text: What does a production possibilities curve demonstrate?
     choice:
@@ -36,8 +37,9 @@ questions:
       - option: D
         text: Scarcity applies to modern economies but did not apply to ancient economies
     answer:
-      - option: 
-        text: 
+      - option: B
+        text: >
+          Production possibility curves show the number of items a supplier can produce when the supplier is making more of one item.
         
 layout: cc_review
 ---

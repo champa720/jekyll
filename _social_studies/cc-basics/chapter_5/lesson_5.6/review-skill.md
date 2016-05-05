@@ -20,7 +20,7 @@ questions:
       - option: High Morale
       - option: Low Morale
     answer:
-      - text: 
+      - option: High Morale
   - number: 2
     text: >
       Job goals are set by employees.
@@ -28,7 +28,7 @@ questions:
       - option: High Morale
       - option: Low Morale
     answer:
-      - text: 
+      - option: High Morale
   - number: 3
     text: >
       Employees can sign up for training classes through a company website.
@@ -36,7 +36,7 @@ questions:
       - option: High Morale
       - option: Low Morale
     answer:
-      - text: 
+      - option: High Morale
   - number: 4
     text: >
       An employee breaks a copy machine on purpose.
@@ -44,7 +44,7 @@ questions:
       - option: High Morale
       - option: Low Morale
     answer:
-      - text: 
+      - option: Low Morale
   - number: 5
     text: >
       A new policy requires all workers to arrive one-half hour early on Fridays.
@@ -52,7 +52,7 @@ questions:
       - option: High Morale
       - option: Low Morale
     answer:
-      - text: 
+      - option: Low Morale
   - number: 6
     text: >
       The families of employees are invited to the annual company picnic.
@@ -60,7 +60,7 @@ questions:
       - option: High Morale
       - option: Low Morale
     answer:
-      - text: 
+      - option: High Morale
         
 layout: cc_review
 ---

@@ -8,30 +8,36 @@ source:
   toc_type: Lesson Review
   toc_number: 1.5
   pages: 44 - 47
-
-vocabulary:
-  - 
-  - 
-  - 
-  - 
-  - 
   
 questions:
   - number: 1
-    text: T 
+    text: >
+      
+    choice:
+      - option:
     answer: 
+      - option: 
   - number: 2
-    text: 
+    text: >
+      
+    choice:
+      - option:
     answer: 
+      - option:
   - number: 3
-    text: 
+    text: >
+      
+    choice:
+      - option:
     answer: 
+      - option:
   - number: 4
-    text: 
+    text: >
+      
+    choice:
+      - option:
     answer: 
-  - number: 5
-    text: 
-    answer: 
+      - option:
 
 layout: cc_review
 ---

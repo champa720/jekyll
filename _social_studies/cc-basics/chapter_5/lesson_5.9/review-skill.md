@@ -25,7 +25,8 @@ questions:
     choice:
       - option: blank
     answer:
-      - text: 
+      - text: >
+          Sample answer: A credit report that gives incorrect information might mean that I would not get a loan. If an identity thief has been using my Social Security number, I might have many unpaid bills listed on my record. If my record shows unpaid bills, an employer might not hire me because I would look like an irresponsible person.
         
 layout: cc_review
 ---

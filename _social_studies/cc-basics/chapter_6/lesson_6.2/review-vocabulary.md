@@ -4,44 +4,56 @@ title: Vocabulary Review
 source:
 - title: Common Core Basics
   subject: Social Studies
-  chapter: 
+  chapter: 6
   toc_type: Lesson Review
-  toc_number: 
-  pages: 
-
-vocabulary:
-- option: 
-- option: 
-- option: 
-- option: 
-- option: 
-- option: 
+  toc_number: 6.2
+  pages: 250 - 256
   
 questions:
   - number: 1
-    text: 
+    text: >
+      The __________ of America marked a major change in the country's economy.
     choice:
-      - option: 
+      - option: corollary
+      - option: imperialism
+      - option: industrialization
+      - option: main idea
+      - option: monopoly
     answer: 
-      - option: 
+      - option: industrialization
   - number: 2
-    text: 
+    text: >
+      A __________ of the Monroe Doctrine stated that the United States could intervene in the troubled affairs of Latin America.
     choice:
-      - option: 
+      - option: corollary
+      - option: imperialism
+      - option: industrialization
+      - option: main idea
+      - option: monopoly
     answer: 
-      - option: 
+      - option: corollary
   - number: 3
-    text: 
+    text: >
+      The United States took part in __________ by building up colonies in foreign lands.
     choice:
-      - option: 
+      - option: corollary
+      - option: imperialism
+      - option: industrialization
+      - option: main idea
+      - option: monopoly
     answer: 
-      - option: 
+      - option: imperialism
   - number: 4
-    text: 
+    text: >
+      Large companies formed powerful __________ that prevented smaller companies from competing with them.
     choice:
-      - option: 
+      - option: corollary
+      - option: imperialism
+      - option: industrialization
+      - option: main idea
+      - option: monopoly
     answer: 
-      - option: 
+      - option: monopoly
 
 layout: cc_review
 ---

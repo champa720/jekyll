@@ -66,30 +66,32 @@ questions:
     choice:
       - option: blank
     answer:
-      - option: 
-        text: 
+      - text: >
+          Kim Jong-un is meeting with a group of advisors. They are all studying a large document.
   - number: 3
     text: >
       What viewpoint do you think the photographer has of Kim Jong-un: positive, negative, or unbiased? Explain your answer.
     choice:
       - option: blank
     answer:
-      - option: 
-        text: 
+      - text: >
+          No one in the photo is smiling. The photographer seems to be showing a negative view of Kim Jong-un.
   - number: 4
-    text: When looking at this photo what opinion do you have of Kim Jong-un? Explain your answer.
+    text: >
+        When looking at this photo what opinion do you have of Kim Jong-un? Explain your answer.
     choice:
       - option: blank
     answer:
-      - option: 
-        text: 
+      - text: >
+          Kim Jong-un is very young, but he seems to be telling all the older men what to do. He is a dictator, and he is in charge of everything, even though he may have little experience.
   - number: 5
-    text: What opinion do you think North Koreans would have of Kim Jong-un when they look at this photo? Explain your answer.
+    text: >
+      What opinion do you think North Koreans would have of Kim Jong-un when they look at this photo? Explain your answer.
     choice:
       - option: blank
     answer:
-      - option: 
-        text: 
-        
+      - text: >
+          I think North Koreans might have a positive view of Kim Jong-un if they looked at this photo. They are probably happy that the leader is in charge.
+
 layout: cc_review
 ---

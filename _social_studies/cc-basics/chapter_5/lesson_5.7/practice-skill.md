@@ -18,7 +18,8 @@ questions:
     choice:
       - option: blank
     answer:
-      - text: 
+      - text: >
+          Sample answer: The three owners should specialize and divide the labor. It is not efficient to have each person doing all three tasks. One person should take the orders and pass them to the second person. That person should make the sandwiches. The third person should ring up sales. All three of them will become more skilled (and faster) at their jobs when they do not keep switching tasks. If business improves, the owners may need to take on a fourth person to help make sandwiches.
   - number: 2
     text: Which is the best synonym for productivity?
     choice:
@@ -31,8 +32,9 @@ questions:
       - option: D
         text: interdependence
     answer:
-      - option: 
-        text: 
+      - option: C
+        text: >
+          Productivity is achieving the maximum output with the minimum input. Reaching this goal requires being efficient.
   - number: 3
     text: In an economic transaction, which people are interdependent?
     choice:
@@ -45,8 +47,9 @@ questions:
       - option: D
         text: all of the above
     answer:
-      - option: 
-        text: 
+      - option: D
+        text: >
+          The manufacturer makes the object, and the buyer purchases it from the seller. The economic transaction could not take place without all these people.
         
 layout: cc_review
 ---

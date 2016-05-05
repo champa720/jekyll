@@ -4,47 +4,31 @@ title: Skill Review
 source:
 - title: Common Core Basics
   subject: Social Studies
-  chapter: 
+  chapter: 7
   toc_type: Lesson Review
-  toc_number: 
-  pages: 
+  toc_number: 7.2
+  pages: 274 - 277
 
 questions:
-  - excerpt: 
+  - excerpt: 1
     text: >
-      
+      Free trade will lead to prosperity for the peoples of the world.
   - number: 1
     text: >
-      
-    choice:
-      - option: blank
-    answer:
-      - text: 
-  - excerpt: 
-    text: >
-      
-  - number: 2
-    text: >
-      
+      The unstated assumption made is that the wealth gained through free trade will be
     choice:
       - option: A
-        text: 
+        text: shared widely by ordinary people
       - option: B
-        text: 
+        text: held mainly by the rich
       - option: C
-        text: 
+        text: taxed heavily by the government
       - option: D
-        text: 
+        text: lost due to corruption
     answer:
-      - option: 
-        text: 
-  - number: 3
-    text: >
-      
-    choice:
-      - option: blank
-    answer:
-      - text: 
+      - option: A
+        text: >
+          The assumption is that all people, or "peoples of the world," will share the wealth gained from free trade.
         
 layout: cc_review
 ---

@@ -1,20 +1,23 @@
 <div class="col s12 m4">
-  <ul id="information"class="collapsible" data-collapsible="accordion">
+  <ul id="information"class="collapsible" data-collapsible="accordion" align="left">
     <li class="active">
-      <div class="collapsible-header truncate grey lighten-4 active">
-        <i class="material-icons left">expand_more</i>
-        <b>{{ page.title }}</b>
+      <div class="collapsible-header truncate active">
+        <i class="material-icons left">chevron_right</i>
+        <b>Source</b>
       </div>
       <div class="collapsible-body">
-        {% for source in page.source %}
-        <p>{{ source.title }}<br />Pages&#58;&ensp;{{ source.pages }}</p>
-        {% endfor %}
+        <p><b>{{ page.title }}</b><br />
+          {% for source in page.source %}
+          {{ source.title }}<br />
+          Pages&#58;&ensp;{{ source.pages }}
+          {% endfor %}
+        </p>
       </div>
     </li>
     <!-- END source -->
     <li>
-      <div class="collapsible-header truncate grey lighten-4">
-        <i class="material-icons left">expand_more</i>
+      <div class="collapsible-header truncate">
+        <i class="material-icons left">chevron_right</i>
         <b>Objectives</b>
       </div>
       <div class="collapsible-body">
@@ -27,8 +30,8 @@
     </li>
     <!-- END objectives -->
     <li>
-      <div class="collapsible-header truncate grey lighten-4">
-        <i class="material-icons left">expand_more</i>
+      <div class="collapsible-header truncate">
+        <i class="material-icons left">chevron_right</i>
         <b>Skills</b>
       </div>
       <div class="collapsible-body">
@@ -45,23 +48,23 @@
     </li>
     <!-- END skills -->
     <li>
-      <div class="collapsible-header truncate grey lighten-4">
-        <i class="material-icons left">expand_more</i>
+      <div class="collapsible-header truncate">
+        <i class="material-icons left">chevron_right</i>
         <b>Vocabulary</b>
       </div>
       <div class="collapsible-body">
         <ul class="collection">
           {% for vocabulary in page.vocabulary %}
-            {% capture page_vocab %}{{ vocabulary }}{% endcapture %}
-          
+          {% capture page_vocab %}{{ vocabulary }}{% endcapture %}
+
           {% for data in site.data.ss_basics-glossary.vocabulary %}
           {% for list in data.list %}
-            {% capture glossary_vocab %}{{ list.word }}{% endcapture %}
-          
+          {% capture glossary_vocab %}{{ list.word }}{% endcapture %}
+
           {% if glossary_vocab == page_vocab %}
           <li class="collection-item">
-            <b>{{ list.word }}</b>&emsp;<span>{{ list.pronunciation }}</span>
-            <span class="secondary-content tooltipped" data-position="left" data-tooltip="{{ list.definition }}"><i class="material-icons">info_outline</i></span>
+            <b>{{ list.word }}</b><br /><span>{{ list.pronunciation }}</span>
+            <span class="secondary-content tooltipped" data-position="bottom" data-tooltip="{{ list.definition }}"><i class="material-icons">info_outline</i></span>
           </li>
           {% endif %}
           {% endfor %}
@@ -70,27 +73,27 @@
         </ul>
       </div>
     </li>
-    <!-- END vocabulary -->
-    <li>
-      <div class="collapsible-header truncate grey lighten-4">
-        <i class="material-icons left">expand_more</i>
-        <b>Review</b>
-      </div>
-      <div class="collapsible-body">
-        <ul class="collection">
-          <a class="collection-item" href="review-vocabulary" target="_blank"><i class="material-icons right">exit_to_app</i>Vocabulary Review</a>
-          <a class="collection-item" href="review-skill" target="_blank"><i class="material-icons right">exit_to_app</i>Skill Review</a>
-          <a class="collection-item" href="practice-skill" target="_blank"><i class="material-icons right">exit_to_app</i>Skill Practice</a>
-          <a class="collection-item" href="practice-writing" target="_blank"><i class="material-icons right">exit_to_app</i>Writing Practice</a>
-        </ul>
-      </div>
-    </li>
-    <!-- END review -->
-    <li class="collection">
-      <a class="collection-item waves-effect waves-dark" href="" target="_blank">
-        <i class="material-icons right">picture_as_pdf</i><span>View PDF</span>
-      </a>
-    </li>
-    
+    <!-- END vocabulary 
+<li>
+<div class="collapsible-header truncate">
+<i class="material-icons left">chevron_right</i>
+<b>Review</b>
+</div>
+<div class="collapsible-body">
+<ul class="collection">
+<a class="collection-item" href="review-vocabulary" target="_blank"><i class="material-icons right">exit_to_app</i>Vocabulary Review</a>
+<a class="collection-item" href="review-skill" target="_blank"><i class="material-icons right">exit_to_app</i>Skill Review</a>
+<a class="collection-item" href="practice-skill" target="_blank"><i class="material-icons right">exit_to_app</i>Skill Practice</a>
+<a class="collection-item" href="practice-writing" target="_blank"><i class="material-icons right">exit_to_app</i>Writing Practice</a>
+</ul>
+</div>
+</li>
+<!-- END review 
+<li class="collection">
+<a class="collection-item waves-effect waves-dark" href="" target="_blank">
+<i class="material-icons right">picture_as_pdf</i><span>View PDF</span>
+</a>
+</li>
+-->
   </ul>
 </div>

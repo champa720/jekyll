@@ -23,7 +23,8 @@ questions:
         text: A nation has been taken over by a leader who will exert nearly absolute power.
     answer:
       - option: B
-        text: A direct democracy will work only in a group that is small enough so everyone can voice an opinion and vote on every policy. A government in which leaders represent the citizens is a representative democracy, and a nation that describes government powers in a constitution is a constitutional democracy. In a nation led by an absolute ruler, the people will not be consulted.
+        text: >
+          A direct democracy will work only in a group that is small enough so everyone can voice an opinion and vote on every policy. A government in which leaders represent the citizens is a representative democracy, and a nation that describes government powers in a constitution is a constitutional democracy. In a nation led by an absolute ruler, the people will not be consulted.
   - number: 2
     text: How is a constitutional monarchy different from an absolute monarchy?
     choice:
@@ -37,7 +38,8 @@ questions:
         text: Only an absolute monarchy protects the rights of citizens.
     answer:
       - option: C
-        text: In a constitutional monarchy, the king or queen has no real authority; the prime minister, who is head of the legislature, governs the country. An absolute monarchy has a king or queen, but it does not have a legislature with power to make laws and protect the rights of citizens.
+        text: >
+          In a constitutional monarchy, the king or queen has no real authority; the prime minister, who is head of the legislature, governs the country. An absolute monarchy has a king or queen, but it does not have a legislature with power to make laws and protect the rights of citizens.
   - number: 3
     text: What do the Magna Carta, the Great Binding Law, and the US Constitution have in common?
     choice:
@@ -51,7 +53,8 @@ questions:
         text: Each protected the rights of the people.
     answer:
       - option: D
-        text: All three documents contain statements that protect the rights of the people. They did not establish dictatorships. The Magna Carta did not create a democracy or eliminate the monarchy.
+        text: >
+          All three documents contain statements that protect the rights of the people. They did not establish dictatorships. The Magna Carta did not create a democracy or eliminate the monarchy.
         
 layout: cc_review
 ---

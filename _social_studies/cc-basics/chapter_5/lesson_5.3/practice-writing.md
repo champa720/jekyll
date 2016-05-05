@@ -16,7 +16,14 @@ questions:
     choice:
       - option: blank
     answer:
-      - text: 
+      - text: >
+          Use facts to convince readers to agree with your opinion.
+          <br /><br />
+          Sample Response
+          <br /><br />
+          December 18-FHA Loans          
+          <br /><br />
+          Housing in my area is expensive. I wanted to buy a house, but I couldn't make a 10% down payment. Lucky for me, I qualified for an FHA loan. With this type of loan, I only had to have a 3.5% down payment. The bank helped me figure out how much I could afford to pay every month for my mortgage and other fees. Then I knew what my price range was. Without an FHA loan, I would never have been able to buy my own place.
         
 layout: cc_review
 ---

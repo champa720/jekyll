@@ -22,8 +22,9 @@ questions:
       - option: D
         text: the severity of the 2007-2009 recession
     answer:
-      - option: 
-        text: 
+      - option: A
+        text: >
+          The Great Depression forced the government to help solve the economic problems of the nation.
   - number: 2
     text: Which strategy deals specifically with regulating business activity?
     choice:
@@ -36,8 +37,9 @@ questions:
       - option: D
         text: creating the Security and Exchange Commission
     answer:
-      - option: 
-        text: 
+      - option: D
+        text: >
+          The Securities and Exchange Commission is a government agency that protects investors from investment fraud.
         
 layout: cc_review
 ---

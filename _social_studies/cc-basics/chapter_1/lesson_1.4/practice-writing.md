@@ -8,9 +8,16 @@ source:
   toc_type: Lesson Review
   toc_number: 1.4
   pages: 38 - 43
-
-question: >
-  Research the local government structure in your city or town. Write two paragraphs describing the structure of your local government and its effectiveness.
+  
+questions:
+  - number: 1
+    text: >
+      Research the local government structure in your city or town. Write two paragraphs describing the structure of your local government and its effectiveness.
+    choice:
+      - option: blank
+    answer:
+      - text: >
+          
 
 layout: cc_review
 ---
