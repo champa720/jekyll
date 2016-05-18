@@ -1,6 +1,9 @@
+before_script: bundle update
 language: ruby
 rvm:
-  - 2.1.7
+  - &ruby1 2.3.0
+  - &ruby2 2.2.4
+  - &ruby3 2.1.8
 script:
   - bundle exec jekyll build
   - bundle exec html-proofer ./_site
