@@ -51,6 +51,8 @@ markdown: kramdown
 kramdown:
   input: GFM
   syntax_highlighter: rouge
+  
+exclude: [vendor]
 
    # jekyll-datapage-gen
    #  page_gen:
